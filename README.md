@@ -216,13 +216,13 @@ As in Ithkuil, words are formed by following predefined formula with several slo
 The simplest noun is Vc CVr Cd.
 The simplest verb is Cn Vc CVr Cd.
 
-* [Cd](#cvr-and-cd)
-* [Cn](#cn)
-* [CVc](#vc-and-cvc)
-* [CVm](#cvm)
-* [CVr](#cvr-and-cd)
-* [Vc](#vc-and-cvc)
-* [Ve](#ve)
+* [Cd - Root Derivation](#cvr-and-cd)
+* [Cn - Illocution + Validation](#cn)
+* [CVc - Case](#vc-and-cvc)
+* [CVm - Modifier](#cvm)
+* [CVr - Root](#cvr-and-cd)
+* [Vc - Case](#vc-and-cvc)
+* [Ve - Extension + Perspective + Essence](#ve)
 
 ### Cn
 

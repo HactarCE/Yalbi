@@ -37,11 +37,11 @@ The alveolar approximant **r** may also be pronounced as an alveolar tap.
 
 Front and central vowels are unrounded; back vowels are rounded.
 
-|      | Front | Central | Back |
-|------|:-----:|:-------:|:----:|
-| High |   i   |         |  u   |
-| Mid  |   e   |    ~    |  o   |
-| Low  |       |    a    |      |
+|      |  Front  | Central |  Back   |
+|------|:-------:|:-------:|:-------:|
+| High | i /i~ɪ/ |         | u /u~ʊ/ |
+| Mid  |  e /ɛ/  | ~ /ə~ʌ/ |  o /o/  |
+| Low  |         |  a /a/  |         |
 
 Yalbi has the following dipthongs:
 

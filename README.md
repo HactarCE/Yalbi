@@ -149,10 +149,10 @@ When used with a nominal root or derivation, Extension is interpreted spatially.
 
 | Gloss                 | English                                                                                   |
 |-----------------------|-------------------------------------------------------------------------------------------|
-| _mountain_-ICP-[noun] | "the beginning of a mountain" (spatial)                                                   |
-| _mountain_-ICP-[verb] | "to be the beginning of a mountain" (spatial), NOT "to start being a mountain" (temporal) |
-| _to jump_-ICP-[verb]  | "to start to jump" (temporal)                                                             |
-| _to jump_-ICP-[noun]  | "the starting of a jump" (temporal)                                                       |
+| _mountain_-**ICP**-[noun] | "the beginning of a mountain" (spatial)                                                   |
+| _mountain_-**ICP**-[verb] | "to be the beginning of a mountain" (spatial), NOT "to start being a mountain" (temporal) |
+| _to jump_-**ICP**-[verb]  | "to start to jump" (temporal)                                                             |
+| _to jump_-**ICP**-[noun]  | "the starting of a jump" (temporal)                                                       |
 
 To convey temporal Extension with nominal roots and derivations, use <some suffix that hasn't been invented yet>. [TODO]
 

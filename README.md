@@ -195,26 +195,6 @@ The abbreviations and names for the latter nine Validations have been changed fr
 
 With `IRG` Interrogative illocution, Validation might be translated as "I [think/heard/assume] that X is the case; is it so?" (with no applicable suffix) or "I [think/heard/assume] the answer to the following question: X?" (with an applicable suffix). In general, Illocution and Validation operate in parallel rather than modifying one another.
 
-### Extension
-
-Extension has been simplified from Ithkuil, having only four values:
-
-* `DEL` Delimitive - Whole
-* `PRX` Proximal - Part
-* `ICP` Inceptive - Start
-* `TRM` Terminative - End
-
-When used with a nominal root or derivation, Extension is interpreted spatially. When used with a verbal root or derivation, Extension is interpreted temporally. For example:
-
-| Gloss                 | English                                                                                   |
-|-----------------------|-------------------------------------------------------------------------------------------|
-| _mountain_-**ICP**-[noun] | "the beginning of a mountain" (spatial)                                                   |
-| _mountain_-**ICP**-[verb] | "to be the beginning of a mountain" (spatial), NOT "to start being a mountain" (temporal) |
-| _to jump_-**ICP**-[verb]  | "to start to jump" (temporal)                                                             |
-| _to jump_-**ICP**-[noun]  | "the starting of a jump" (temporal)                                                       |
-
-To convey temporal Extension with nominal roots and derivations, use <some suffix that hasn't been invented yet>. [TODO]
-
 ### Perspective
 
 Perspective has been copied almost directly from Ithkuil.
@@ -247,13 +227,24 @@ Here are some examples of Perspective in use:
 
 ### Essence
 
-Yalbi's Essence is a merger of Ithkuil's Essence and Context, but has only three values.
+Yalbi's Essence is identical to Ithkuil's Essence, except that `RPV` Representative has been renamed to `RPS` Representational, to better match `NRM` Normal.
 
 | Abbreviation |       Name       | Use                                                             |
 |:------------:|:----------------:|-----------------------------------------------------------------|
 |    `NRM`     |      Normal      | A real thing that exists (or a real event)                      |
 |    `RPS`     | Representational | Something which doesn't really exist (or doesn't really happen) |
-|    `MTR`     |   Metaphorical   | A metaphor for something                                        |
+
+### Context
+
+Yalbi's Context is similar to Ithkuil's Context, but with several changes. The `AMG` Amalgamative has been removed, and `FNC` Functional has been replaced with `SPC` Specific, and its usage has changed. Additionally, `RPS` Representative has been renamed to `MTR` Metaphorical to reduce confusion.
+
+| Abbreviation |     Name     | Use                                                                | Example                             |
+|:------------:|:------------:|--------------------------------------------------------------------|-------------------------------------|
+|    `EXS`     | Existential  | Default context; no emphasis or special meaning                    | "It's a cat."                       |
+|    `SPC`     |   Specific   | Emphasizes that a word means one thing rather than the alternative | "It's a cat (as opposed to a dog)." |
+|    `MTR`     | Metaphorical | A metaphor for something; not to be taken literally                | "It's a (metaphorical) cat."        |
+
+Note that the Metaphorical context operates independently from Essence; one can have a metaphor for a thing which really exists, or a metaphor for a thing which does not exist.
 
 Yalbi's `MTR` Metaphorical essence corresponds to Ithkuil's Representational context, while Yalbi's `RPS` Representational essence corresponds to Ithkuil's `RPV` Representative essence. Confused yet?
 
@@ -336,21 +327,17 @@ The vocalic portion of CVm has the following values.
 
 ### Ve
 
-Ve conveys Perspective, Extension, and Essence.
+Ve conveys Perspective, and Essence, and Context.
 
-| Ve      | `DEL` Delimitive | `PRX` Proximal | `ICP` Inceptive | `TRM` Terminative |
-|---------|:----------------:|:--------------:|:---------------:|:-----------------:|
-| `M/NRM` |       (a)        |      aia       |       eia       |        oia        |
-| `M/RPS` |        au        |      a'a       |       e'a       |        o'a        |
-| `M/MTR` |        ai        |      ai'a      |      ei'a       |       oi'a        |
-| `U/NRM` |        e         |      aie       |       eie       |        oie        |
-| `U/RPS` |       e'i        |      a'e       |       e'e       |        o'e        |
-| `U/MTR` |        ei        |      ai'e      |      ei'e       |       oi'e        |
-| `N/NRM` |       i/u        |      aiu       |       eiu       |        oiu        |
-| `N/RPS` |        oe        |      a'u       |       e'u       |        o'u        |
-| `N/MTR` |      iu/ui       |      ai'u      |      ei'u       |       oi'u        |
-| `A/NRM` |        o         |      aio       |       eio       |        oio        |
-| `A/RPS` |        oa        |      a'o       |       e'o       |        o'o        |
-| `A/MTR` |        oi        |      ai'o      |      ei'o       |       oi'o        |
+| Ve      | `EXS` Existential | `SPC` Specific | `MTR` Metaphorical |
+|---------|:-----------------:|:--------------:|:------------------:|
+| `M/NRM` |        (a)        |       oa       |         oe         |
+| `M/RPS` |        ai         |      aia       |        aie         |
+| `U/NRM` |         e         |      aio       |        aiu         |
+| `U/RPS` |        ei         |      eia       |        eie         |
+| `N/NRM` |         o         |      eio       |        eiu         |
+| `N/RPS` |        oi         |      oia       |        oie         |
+| `A/NRM` |        i/u        |     ia/ua      |       ie/ue        |
+| `A/RPS` |        au         |     io/uo      |       iu/ui        |
 
 Only `DEL` Delimitive extension is irregular; all other Extensions follow a relatively simple pattern.

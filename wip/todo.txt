@@ -1,0 +1,14 @@
+fix all verbs have case (still prevent invalid illoc+validation combinations)
+- maybe include aspect as vowel?
+- need two different verb forms: to want, and to be a want (former is invalid for most stems)
+
+to be X (noun meaning)
+to do X (verb meaning -- not valid for most stems)
+to be the doing of X (use modifier)
+
+- also case-frame stuff!
+
+move "integrated carrier" and call it something else maybe?
+
+"root incorp" using type 2 case suffix?
+CV_suffix CV_root C_deriv V_something?

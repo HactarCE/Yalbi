@@ -1,0 +1,51 @@
+CARRIER TYPES
+
+L
+- same as Ithkuil carrier
+R
+- IFL
+- FML
+  - P1 = whatever is meant by the words
+  - P2 = the words themselves
+  - P3 = the words are part of the sentence (use **oe** for Vc)
+
+- IFL = string of words
+- FML = part of sentence
+  - P1 = single word
+  - P2 = multiple words
+  - P3 = rest of sentence
+    - S1 = yalbi speech
+    - S2 = yalbi translation
+    - S3 = other language
+* P3/S3/FML is vague and somewhat undefined
+
+yalbi speech as words
+yalbi speech as part of sentence
+loanword speech as words
+yalbi translation as words
+yalbi translation as part of sentence
+
+single word
+multiple words
+
+yalbi speech (as part of sentence)
+yalbi speech (as string of words)
+yalbi speech (as a translation of a word or string of words)
+single yalbi word (as part of sentence)
+single yalbi word (as a word)
+single yalbi word (as a translation of a word or string of words)
+loanword phrase (as part of sentence)
+loanword phrase (as string of words)
+single loanword (as part of sentence)
+single loanword (as a word)
+proper noun
+- animate thing
+  - human
+  - non-human
+- inanimate thing
+  - tangible
+  - intangible
+- abstract concept
+  - location
+  - DIRECT SPEECH (not same as Ithkuil)
+proper noun (formal)

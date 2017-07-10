@@ -1,0 +1,291 @@
+/*
+ * This is the ultimate source of root information. All others are
+ * copied or generated from this file.
+ *
+ * HJSON code folding is broken in Atom so I have to use #region tags. Sorry.
+ *
+
+// FORMAT
+category: {
+  VC-ROOT: {
+    s: {
+      C-stem1: [
+        v // verbal stem
+        definition of stem 1
+        gloss (noun)
+        to gloss (verb)
+        '''
+        Optional notes
+        '''
+      ]
+      C-stem2: [
+        n // nominal (noun) stem
+        definition of stem 2
+        gloss (noun)
+        '''
+        Optional notes
+        '''
+      ]
+      ...
+      _rp: [ "v" "secret meaning" ] // seeeecret root (used only for gloss)
+      ...
+    // s: @pattern
+    // s: ["@pattern" "fill-in" "gloss fill-in (optional)" { optional-additional-stem1: [ ... ] ... }]
+    src: source root from Ithkuil
+    n:
+      '''
+      Any other notes about this root
+      '''
+  }
+}
+
+*/
+
+{
+
+
+
+  #region EMOTIONAL STATES
+  "emotional states": {
+
+    #region -BA- WANT/DESIRE/REQUEST
+  ba: {
+    s: {
+      l: [
+        v
+        to unwillfully want/desire
+        want
+        to want
+      ]
+      r: [
+        v
+        to hope/wish
+        hope
+        to hope
+      ]
+      x: [
+        v
+        to consciously desire based on need
+        desire (need)
+        to desire (need)
+      ]
+      f: [
+        v
+        to consciously desire based on goal
+        desire (goal)
+        to desire (goal)
+      ]
+      m: [
+        v
+        to request
+        request
+        to request
+      ]
+      n: [
+        v
+        to need; need/lack/necessity
+        need
+        to need
+      ]
+      .n: [
+        v
+        to aspire; aspiration/goal
+        goal
+        to aspire
+      ]
+    }
+    src: b
+  }
+  #endregion
+
+  }
+  #endregion
+
+
+
+  #region CLOTHING
+  "clothing": {
+
+    #region TEMPLATE @CLOTHING
+    @clothing: {
+      s: {
+        l: [ "n", "@" ]
+        r: [ "v", "wear @" ]
+        p: [ "n", "@ as covering" ]
+        b: [ "n", "@ as fashion" ]
+        t: [ "n", "@ as distinguishing marker" ]
+        d: [ "n", "@ as indicator of station" ]
+        k: [ "n", "@ as ornament" ]
+        g: [ "n", "@ as accessory" ]
+        s: [ "n", "@ as part of uniform" ]
+        c: [ "n", "@ as part of costume" ]
+      }
+      src: gv
+      n:
+        '''
+        **r** can be combined with a fricative or plosive to mean _wear X as Y_. For example, _rt_ means _to wear as distinguishing marker_. **s**/**z** or **c**/**j** can be appended as well (voicedness depending on the preceding plosive; unvoiced if none). For example, _rgj_ means _to wear as an accessory as part of a costume_.
+        '''
+    }
+    #endregion
+
+    gva: { s: [ "@clothing" "article of clothing" "clothing" ] src: "gv" }
+    bu: { s: [ "@clothing" "coat/jacket" "coat" ] src: "bb" }
+    bda: { s: [ "@clothing" "necktie/cravat" "necktie" ] src: "bd" }
+    bde: { s: [ "@clothing" "bowtie" ] }
+
+  }
+  #endregion
+
+
+
+  #region ANIMAL LIFE
+  "animal life": {
+
+    #region TEMPLATE @ANIMAL
+    @animal: {
+      default: rnma
+      s: {
+        l: [ "n" "@" ]
+        s: [ "n" "female @" ]
+        c: [ "n" "male @" ]
+        d: [ "n" "wild @" ]
+        g: [ "n" "bred/domesticated @" "domesticated @" ]
+        p: [ "n" "@ as food/prey" ]
+        t: [ "n" "@ as resource" ]
+        k: [ "n" "@ as derived resource or processed product" ]
+      }
+      src: vr
+      n:
+        '''
+        A plosive can be combined with **s**/**z** or **c**/**j**. For example, _gz_ means _bred/domesticated male_.
+        '''
+    }
+    #endregion
+
+    rnma: { s: [ "@animal" "animal" ] }
+    vra: { s: [ "@animal" "generic waterlife" ] src: "vr" }
+    bdu: { s: [ "@animal" "octopus" ] src: "bdh" }
+    bga: { s: [ "@animal" "squid" ] src: "bg" }
+    bge: { s: [ "@animal" "shark" ] src: "bkʰ" }
+    bja: { s: [ "@animal" "eel" ] src: "bj" }
+    bka: { s: [ "@animal" "lamprey" ] src: "bk" }
+    bku: { s: [ "@animal" "pike" ] src: "bkw" }
+    bki: { s: [ "@animal" "ray" ] src: "bk'" }
+
+  }
+  #endregion
+
+
+
+  #region COLORS
+  "colors": {
+
+    #region TEMPLATE @COLOR
+    @color: {
+      default: xto
+      s: {
+        l: [ "v" "@; to manifest @" "@" "to manifest @" ]
+        r: [ "v" "to tint/paint @; a @ tint" "a @ tint" "to paint" ]
+        m: [ "v" "transparent @; to manifest transparent @" "transparent @" "to manifest transparent @" ]
+        n: [ "v" "translucent @; to manifest translucent @" "translucent @" "to manifest translucent @" ]
+        .n: [ "v" "opaque @; to manifest opaque @" "opaque @" "to manifest opaque @" ]
+        s: [ "v" "light @; to manifest light @" "light @" "to manifest light @" ]
+        c: [ "v" "dark @; to manifest dark @" "dark @" "to manifest dark @" ]
+        f: [ "v" "fluorescent @; to manifest fluorescent @" "fluorescent @" "to manifest fluorescent @" ]
+        z: [ "v" "vibrant/bright @; to manifest vibrant/bright @" "bright @" "to manifest bright @" ]
+        j: [ "v" "pale @; to manifest pale @" "pale @" "to manifest pale @" ]
+        v: [ "v" "@-ish; to manifest a @-ish color" "@-ish" "to manifest @-ish" ]
+        _rm: [ "v" "a transparent @ tint" "to paint transparent @" ]
+        _rn: [ "v" "a translucent @ tint" "to paint translucent @" ]
+        _r.n: [ "v" "a opaque @ tint" "to paint opaque @" ]
+        _rs: [ "v" "a light @ tint" "to paint light @" ]
+        _rc: [ "v" "a dark @ tint" "to paint dark @" ]
+        _rf: [ "v" "a fluorescent @ tint" "to paint fluorescent @" ]
+        _rz: [ "v" "a bright @ tint" "to paint bright @" ]
+        _rj: [ "v" "a pale @ tint" "to paint pale @" ]
+        _rv: [ "v" "a @-ish tint" "to paint @-ish" ]
+      }
+      src: kw
+      n:
+        '''
+        **r** can be combined with a nasal or fricative to yield other meanings. For example, _rc_ means _to paint a dark color_.
+        '''
+    }
+    #endregion
+
+    #region -KWA- COLOR
+    kwa: {
+      s: [ "@color" "color" {
+        x: [
+          n
+          rainbow
+        ]
+        d: [
+          n
+          hue value of a color
+        ]
+        g: [
+          n
+          saturation of a color
+        ]
+        b: [
+          n
+          brightness of a color
+        ]
+        gz: [
+          n
+          opacity of a color
+        ]
+        t: [
+          n
+          color defined by HSV (hue, saturation, brightness/value)
+          HSV color
+        ]
+        k: [
+          n
+          color defined by RGB (red, green, blue)
+          RGB color
+        ]
+        ks: [
+          n
+          color defined by ARGB (opacity/alpha, red, green, blue)
+          ARGB color
+        ]
+        p: [
+          n
+          color defined by CMYK (cyan, magenta, yellow, black)
+          CMYK color
+        ]
+      } ]
+    }
+    #endregion
+
+    xto: { s: [ "@color" "red" ] src: "xt'" }
+    blo: { s: [ "@color" "aquamarine" ] src: "blw" }
+    bra: { s: [ "@color" "yellow" ] src: "br" }
+    dre: { s: [ "@color" "orange" ] src: "dř" }
+    dlo: { s: [ "@color" "maroon" ] src: "dhl" }
+    fla: { s: [ "@color" "black" ] src: "fl" }
+    gri: { s: [ "@color" "sky blue" ] src: "gř" }
+    gya: { s: [ "@color" "white" ] src: "gy" }
+    kli: { s: [ "@color" "turquoise" ] src: "lkw" }
+    kwi: { s: [ "@color" "purple" ] src: "kʰw" }
+    lxi: { s: [ "@color" "brown" ] src: "lxh" }
+    lkei: { s: [ "@color" "ecru" ] src: "ļkʰ" }
+    lpei: { s: [ "@color" "ochre" ] src: "ļpʰ" }
+    mga: { s: [ "@color" "peach" ] src: "mg" }
+    mke: { s: [ "@color" "beige/tan", "beige" ] src: "mkʰ" }
+    mku: { s: [ "@color" "mauve" ] src: "mkʰw" }
+    plu: { s: [ "@color" "burgandy" ] src: "plw" }
+    pxe: { s: [ "@color" "blue" ] src: "př" }
+    pwi: { s: [ "@color" "pink" ] src: "pʰw" }
+    xso: { s: [ "@color" "lavender" ] src: "řsw" }
+    ste: { s: [ "@color" "gray" ] src: "blw" }
+    tli: { s: [ "@color" "teal" ] src: "tlw" }
+    tra: { s: [ "@color" "green" ] src: "tr" }
+    xle: { s: [ "@color" "yellow-green" ] src: "xlw" }
+
+  }
+  #endregion
+
+}

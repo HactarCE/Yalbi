@@ -6,5 +6,5 @@ After trying to reform [Ithkuil](http://www.ithkuil.net/) and discovering severa
 * [Morphology](morphology.md)
 * [Morphophonology](morphophonology.md)
 * [Affixes](affixes.md)
-* [Roots Lexicon](roots.md)
-* [Modifiers Lexicon](modifiers.md)
+* [Roots](roots.md)
+* [Modifiers](modifiers.md)

@@ -3,11 +3,11 @@
 * [Cd - Derived root](#cr-and-cs)
 * [Cf - Case-frame + Function + Perspective](#cf)
 * [Cp - Carrier type](#cp)
-* [Cr - Root](#cr-and-cd)
+* [Cs - Stem](#cvr-and-cs)
 * [CVc - Case](#vc-and-cvc)
 * [CVm - Modifier](#cvm)
 * [CVn - Illocution + Validation + Function + Perspective](#cvn)
-* [CVr - Root](#cvr-and-cd)
+* [CVr - Root](#cvr-and-cs)
 * [Vc - Case](#vc-and-cvc)
 * [Ve - Extension + Perspective + Essence](#ve)
 * [Vi - Modifier role](#vi)
@@ -24,17 +24,13 @@ Cf conveys Case-frame, Function, and Perspective.
 | `STA/FRM-IRG` | sp  | cp  | spr | cpr |
 | `DYN/FRM-IRG` | sk  | ck  | skr | ckr |
 
-Cf and CVn are easy to tell apart; CVn never has **s** or **c**, while CVn always begins with one of them.
+Cf and CVn are easy to tell apart; CVn never has **s** or **c**, while Cf always begins with one of them.
 
 ## Cp
 
 Cp specifies the information which follows a carrier word.
 
 [TODO]
-
-## Cr and Cs
-
-Cr is any consonantal root from the [roots lexicon](roots.md). Cs is a predefined consonantal stem, which is listed for each root. The default value for Cs is **l**.
 
 ## CVm
 
@@ -52,14 +48,16 @@ CVn conveys Illocution, Validation, Function, and Perspective. It is split into 
 
 ### CVn1
 
-CVn1 conveys Function and Perspective.
+CVn1 conveys Function.
 
-| CVn1  | `M` | `U` | `N` | `A` |
-|-------|:---:|:---:|:---:|:---:|
-| `STA` | (h) |  p  |  t  |  k  |
-| `DYN` |  f  |  b  |  d  |  g  |
+| Perspective | CVn1 |
+|-------------|:----:|
+| `M`         | (h)  |
+| `U`         |  f   |
+| `N`         |  p   |
+| `A`         |  k   |
 
-The CVn1 value for `STA/M` is **h** if CVn2 conveys `AXM` Axiomatic illocution; otherwise it is blank.
+The CVn1 value for `M` is **h** if CVn2 conveys `AXM` Axiomatic illocution; otherwise it is blank.
 
 ### CVn2
 
@@ -82,9 +80,13 @@ CVn2 conveys Illocution and Validation.
 | `IPB-PUT` Improbable-Putative   |  lue  |  rue  |  yue  |   -   |   -   |  ue   |   -   |   -   |  wie  |   -   |   -   |
 | `IPB-DUB` Improbable-Dubious    |  lui  |  rui  |  yui  |   -   |   -   |  ui   |   -   |   -   |  wiu  |   -   |   -   |
 
+## CVr and Cs
+
+CVr is any root from the [roots lexicon](roots.md). Cs is a predefined consonantal stem, which is listed for each root. The default value for Cs is **l**.
+
 ## Vc and CVc
 
-Vc and CVc each convey Case (for nouns) or Case-frame (for verbs). For nouns and framed verbs, the vocalic values are listed under [the Case section](morphology.md#case) in [Morphology](morphology.md). The consonantal portion of CVc is always **m**. For unframed verbs and integrated quotations [TODO], which carry no Case, Vc is **ə**.
+Vc and CVc each convey Case. For nouns and framed verbs, the vocalic values are listed under [the Case section](morphology.md#case) in [Morphology](morphology.md). The consonantal portion of CVc is always **m**. For unframed verbs and integrated quotations [TODO], which carry no Case, Vc is **ə**.
 
 ## Ve
 
@@ -104,13 +106,3 @@ Ve conveys Perspective, Essence, and Context.
 ## Vi
 
 Vi conveys the role of a detached modifier. Its values are listed under [the independent modifier section](morphophonology.md#independent-modifier) in [Morphophonology](morphophonology.md).
-
-## Vr
-
-Vr conveys Pattern, Stem, and Designation.
-
-| Vr   | `P1/IFL` | `P2/IFL` | `P3/IFL` | `P1/FML` | `P2/FML` | `P3/FML` |
-|------|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
-| `S1` |    a     |   i/u    |    oa    |    ai    |    au    |    oe    |
-| `S2` |    e     |  ia/ua   |  ie/ue   |    ei    |   aia    |   aio    |
-| `S3` |    o     |  iu/ui   |  io/uo   |    oi    |   aie    |   aiu    |

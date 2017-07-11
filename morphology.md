@@ -34,17 +34,6 @@ All of Ithkuil's other cases have been replaced with modifiers, used in conjunct
 
 Without any relevant suffixes, the Functive case takes on the meaning "characterized by X" and the Correlative case means "in a manner characterized by X." Some words (e.g. numbers) have their own
 
-## Function
-
-Yalbi's Function serves a similar purpose to the corresponding category in Ithkuil. Only verbs carry Function.
-
-| Abbreviation | Name    | Use          | Example          |
-|:------------:|---------|--------------|------------------|
-|    `STA`     | Stative | To be [noun] | To be a bowtie   |
-|    `DYN`     | Dynamic | To [verb]    | To wear a bowtie |
-
-Not all stems can be used with either Function; most nominal (noun) stems only make sense with the Stative function, and some verbal stems only make sense with the Dynamic.
-
 ## Illocution
 
 Yalbi's Illocution merges Ithkuil's Illocution and Sanction.

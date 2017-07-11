@@ -9,10 +9,10 @@ As in Ithkuil, words are formed by following predefined formula with several slo
 
 Nouns and verbs, while grammatically treated very differently, are both formatives and thus follow the same morphophonological formula.
 
-|                                                                                   1                                                                                    |                                                               2                                                               |               3               |                   4                   |             5              |          6          |              7              |             8              |                                                             9                                                              |
-|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:-----------------------------:|:-------------------------------------:|:--------------------------:|:-------------------:|:---------------------------:|:--------------------------:|:--------------------------------------------------------------------------------------------------------------------------:|
-|                                                                       [ [CVn](affixes.md#cvn) /                                                                        |                                                    ( [Cf](affixes.md#cf) )                                                    | [Vc](affixes.md#vc-and-cvc) ] |   ( [CVc](affixes.md#vc-and-cvc) )    | [Cr](affixes.md#cr-and-cs) | [Vr](affixes.md#vr) | ( [CVm](affixes.md#cvm) … ) | [Cs](affixes.md#cr-and-cs) |                                                  ( [Ve](affixes.md#ve) )                                                   |
-| [Illocution](morphology.md#illocution) + [Validation](morphology.md#validation) + [Function](morphology.md#function) + [verbal Perspective](morphology.md#perspective) | [Case-frame](morphology.md#case-frame) + [Function](morphology.md#function) + [verbal Perspective](morphology.md#perspective) |  [Case](morphology.md#case)   | Additional [Case](morphology.md#case) |      [Root](roots.md)      |   [PSD](roots.md)   |  [Modifiers](modifiers.md)  |      [Stem](roots.md)      | [Extension](morphology.md#extension) + [nominal Perspective](morphology.md#perspective) + [Essence](morphology.md#essence) |
+|                                                                 1                                                                 |                                            2                                             |               3               |                   4                   |             5              |          6          |              7              |             8              |                                                             9                                                              |
+|:---------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------:|:-----------------------------:|:-------------------------------------:|:--------------------------:|:-------------------:|:---------------------------:|:--------------------------:|:--------------------------------------------------------------------------------------------------------------------------:|
+|                                                     [ [CVn](affixes.md#cvn) /                                                     |                                 ( [Cf](affixes.md#cf) )                                  | [Vc](affixes.md#vc-and-cvc) ] |   ( [CVc](affixes.md#vc-and-cvc) )    | [Cr](affixes.md#cr-and-cs) | [Vr](affixes.md#vr) | ( [CVm](affixes.md#cvm) … ) | [Cs](affixes.md#cr-and-cs) |                                                  ( [Ve](affixes.md#ve) )                                                   |
+| [Illocution](morphology.md#illocution) + [Validation](morphology.md#validation) + [verbal Perspective](morphology.md#perspective) | [Case-frame](morphology.md#case-frame) + [verbal Perspective](morphology.md#perspective) |  [Case](morphology.md#case)   | Additional [Case](morphology.md#case) |      [Root](roots.md)      |   [PSD](roots.md)   |  [Modifiers](modifiers.md)  |      [Stem](roots.md)      | [Extension](morphology.md#extension) + [nominal Perspective](morphology.md#perspective) + [Essence](morphology.md#essence) |
 
 Affixes within square brackets are required.
 Affixes within parenthetical groups are optional.
@@ -24,9 +24,9 @@ Affixes with an ellipsis can be repeated.
 * Slots 5, 6, and 8 are required; slots 2, 4, 7, and 9 are optional
 * Slot 6 may be repeated
 
-If CVn is present, the formative is a main verb.  
-If Cf is present, the formative is a framed verb.  
-If neither CVn nor Cf is present, the formative is a noun.
+If CVn is present, the formative is grammatically functioning as a main verb (unless certain modifiers are applied).  
+If Cf is present, the formative is grammatically functioning as a framed verb.  
+If neither CVn nor Cf is present, the formative is grammatically functioning as a noun (unless certain modifiers are applied).
 
 ## Detached Modifier
 

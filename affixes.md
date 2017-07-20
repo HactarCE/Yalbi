@@ -48,16 +48,14 @@ CVn conveys Illocution, Validation, Function, and Perspective. It is split into 
 
 ### CVn1
 
-CVn1 conveys Function.
+CVn1 conveys Function and Perspective.
 
-| Perspective | CVn1 |
-|-------------|:----:|
-| `M`         | (h)  |
-| `U`         |  f   |
-| `N`         |  p   |
-| `A`         |  k   |
+| CVn1  | `M` | `U` | `N` | `A` |
+|-------|:---:|:---:|:---:|:---:|
+| `STA` | (h) |  p  |  t  |  k  |
+| `DYN` |  f  |  b  |  d  |  g  |
 
-The CVn1 value for `M` is **h** if CVn2 conveys `AXM` Axiomatic illocution; otherwise it is blank.
+The CVn1 value for `STA/M` is **h** if CVn2 conveys `AXM` Axiomatic illocution; otherwise it is blank.
 
 ### CVn2
 

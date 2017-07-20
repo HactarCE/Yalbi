@@ -32,7 +32,18 @@ Yalbi has only twelve cases.
 
 All of Ithkuil's other cases have been replaced with modifiers, used in conjunction with one of the `FUN` Functive or `COR` Correlative cases.
 
-Without any relevant suffixes, the Functive case takes on the meaning "characterized by X" and the Correlative case means "in a manner characterized by X." Some words (e.g. numbers) have their own
+Without any relevant suffixes, the Functive case takes on the meaning "characterized by X" and the Correlative case means "in a manner characterized by X." Some words (e.g. numbers) have their own		  
+
+## Function		
+
+Yalbi's Function serves a similar purpose to the corresponding category in Ithkuil. Only verbs carry Function.		
+
+| Abbreviation | Name    | Use          | Example          |		
+|:------------:|---------|--------------|------------------|		
+|    `STA`     | Stative | To be [noun] | To be a bowtie   |		
+|    `DYN`     | Dynamic | To [verb]    | To wear a bowtie |		
+
+Not all stems can be used with either Function; most nominal (noun) stems only make sense with the Stative function, and some verbal stems only make sense with the Dynamic.		
 
 ## Illocution
 
@@ -52,7 +63,7 @@ Yalbi's Illocution merges Ithkuil's Illocution and Sanction.
 |    `HOR`     | Hortative            | Wishing ("If only X")                                                   |
 |    `DEC`     | Declarative          | Formal announcement; effecting a change per se                          |
 |    `FRM`     | Framed               | The start of a [case-frame](syntax.md#case-frames)                      |
-|   `FRM-IRG   | Framed interrogative | The start of an [Interrogative case-frame](syntax.md#case-frames)       |
+|  `FRM-IRG`   | Framed interrogative | The start of an [Interrogative case-frame](syntax.md#case-frames)       |
 
 On its own, `IRG` Interrogative illocution asks a true/false question: "Is X true?" Alternatively, `IRG` can be used with certain suffixes to ask other types of questions. Likewise, `FRM-IRG` Framed interrogative illocution is translated as a true/false indirect question ("whether X is true") and can be used with certain suffixes to ask other types of questions.
 

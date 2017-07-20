@@ -1,0 +1,32 @@
+SPACIAL [
+  navigative - "along X" (path)
+  procursive - "relative to X" (orientational reference point)
+  orientative - "X-first" (direction serving as "forward")
+  [
+    -
+    "from location"
+    "diverging from location
+    "far from location"
+    "at location"
+    "near to location"
+    "converging toward location"
+    "toward location"
+    -
+  ]
+]
+
+
+TEMPORAL [
+  "for each"
+  [
+
+
+
+
+    exact same time (Concursive)
+
+
+
+
+  ]
+]

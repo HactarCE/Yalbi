@@ -30,6 +30,8 @@ If neither CVn nor Cf is present, the formative is grammatically functioning as 
 
 ## Detached Modifier
 
+[TODO] Use **h** if a word-initial vowel is needed (so it's not confused with formatives)
+
 [Modifiers](modifiers.md), in addition to being attached to formatives and pronouns, can also be used as words of their own, either as interjections or for emphasis.
 
 |  1   |             2              |

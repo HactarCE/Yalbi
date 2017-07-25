@@ -1,5 +1,7 @@
 # Syntax
 
+[TODO] This is really out-of-date.
+
 ## Parts of Speech
 
 In general, any word that carries Case other than `FUN` Functive or `COR` Correlative is syntactically considered to be noun.

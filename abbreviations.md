@@ -2,6 +2,8 @@
 
 This file lists all abbreviations used in discussion about Yalbi.
 
+[TODO] This is really out-of-date.
+
 | Abbr. | Meaning                                                                           |
 |:-----:|-----------------------------------------------------------------------------------|
 |   A   | [Abstract perspective](morphology.md#perspective)                                 |

@@ -3,6 +3,7 @@
 Most of Ithkuil's categories have been transformed into [modifiers](modifiers.md), the reincarnation of derivational suffixes. Others have been replaced with [derived roots](roots.md), which operates as a more powerful SSD. The rest have been, for the most part, vastly simplified.
 
 * [Case](#case)
+* [Case-frame](#case-frame)
 * [Function](#function)
 * [Illocution](#illocution)
 * [Validation](#validation)
@@ -12,38 +13,133 @@ Most of Ithkuil's categories have been transformed into [modifiers](modifiers.md
 
 ## Case
 
-Yalbi has only twelve cases.
+Like Ithkuil, Yalbi has nearly a hundred cases. Each case is declined somewhat like a modifier, having three types, however the endings are different from modifiers. A brief description of each case follows. Most of these cases are identical to their Ithkuil counterparts, however some cases have been eliminated or moved and some have been replaced.
 
-| No. | Vc value | Abbreviation |        Name        | Use                                                                         |
-|:---:|:--------:|:------------:|:------------------:|-----------------------------------------------------------------------------|
-|  1  |    a     |    `OBL`     |      Oblique       | Content                                                                     |
-|  2  |    ei    |    `IND`     |      Inducive      | Agent + patient                                                             |
-|  3  |    i     |    `ABS`     |     Absolutive     | Patient                                                                     |
-|  4  |    e     |    `ERG`     |      Ergative      | Agent                                                                       |
-|  5  |    ai    |    `EFF`     |    Effectuative    | Enabler                                                                     |
-|  6  |    ie    |    `AFF`     |     Affective      | Experiencer                                                                 |
-|  7  |    oi    |    `DAT`     |       Dative       | Indirect object                                                             |
-|  8  |   aie    |    `DER`     |     Derivative     | Inanimate force or non-deliberate stimulus                                  |
-|  9  |   eia    |    `CPS`     |    Compositive     | Thing consumed                                                              |
-| 10  |   oia    |    `RSL`     |    Resultative     | Result ("into X" as in "transformed into a frog" OR "with the result of X") |
-| 11  |    au    |    `FUN`     |      Functive      | Modifies verb                                                               |
-| 12  |    o     |    `CORn`    | Correlative (next) | Modifies next noun                                                          |
-| 12  |    u     |    `CORp`    | Correlative (prev) | Modifies previous noun                                                      |
+### Transrelative Cases
 
-All of Ithkuil's other cases have been replaced with modifiers, used in conjunction with one of the `FUN` Functive or `COR` Correlative cases.
+| Abbreviation | Name         | Use                                        |
+|:------------:|--------------|--------------------------------------------|
+|    `OBL`     | Oblique      | Content                                    |
+|    `IND`     | Inducive     | Agent + patient                            |
+|    `ABS`     | Absolutive   | Patient                                    |
+|    `ERG`     | Ergative     | Agent                                      |
+|    `EFF`     | Effectuative | Enabler                                    |
+|    `AFF`     | Affective    | Experiencer                                |
+|    `DER`     | Derivative   | Inanimate force or non-deliberate stimulus |
+|    `SIT`     | Situative    | Cause                                      |
+|    `ESS`     | Essive       | Contextual role/name                       |
 
-Without any relevant suffixes, the Functive case takes on the meaning "characterized by X" and the Correlative case means "in a manner characterized by X." Some words (e.g. numbers) have their own		  
+### Possessive Cases
 
-## Function		
+| Abbreviation | Name           | Use                                                              |
+|:------------:|----------------|------------------------------------------------------------------|
+|    `POS`     | Possessive     | Alienable control/oversight                                      |
+|    `PRP`     | Proprietive    | Official ownership or possession accepted by society             |
+|    `GEN`     | Genitive       | Inalienable or intrinsic ownership                               |
+|    `PDC`     | Productive     | Creator/author/originator                                        |
+|    `ITP`     | Interpretative | "as seen by X"/"through the eyes of X"                           |
+|    `OGN`     | Originative    | Literal/figurative origin                                        |
+|    `IDP`     | Interdependent | Mutually dependent ("**nation's** leader" or "**army** general") |
+|    `PAR`     | Partitive      | Quantitative/content-to-container                                |
+|    `COR`     | Correlative    | Abstract association ("**spatial** coordinates"/"relative to X") |
 
-Yalbi's Function serves a similar purpose to the corresponding category in Ithkuil. Only verbs carry Function.		
+### Associative Cases
 
-| Abbreviation | Name    | Use          | Example          |		
-|:------------:|---------|--------------|------------------|		
-|    `STA`     | Stative | To be [noun] | To be a bowtie   |		
-|    `DYN`     | Dynamic | To [verb]    | To wear a bowtie |		
+| Abbreviation | Name            | Use                                                               |
+|:------------:|-----------------|-------------------------------------------------------------------|
+|    `APP`     | Appositive      | [Appositional](http://www.chompchomp.com/terms/appositive.htm)    |
+|    `CRS`     | Contrastive     | "instead of X"/"as opposed to X"                                  |
+|    `CPS`     | Compositive     | Literal/figurative source substance or thing consumed in action   |
+|    `PRD`     | Predicative     | Dependent or relying on                                           |
+|    `MED`     | Mediative       | Medium through which something travels or is achieved             |
+|    `CSD`     | Considerative   | "according to X"/"in X's oppinion"                                |
+|    `ASI`     | Assimilative    | Simile ("like X")                                                 |
+|    `FUN`     | Functive        | "(in a manner) characterized by X"                                |
+|    `TFM`     | Transformative  | "to X"/"until X"/"into X"                                         |
+|    `REF`     | Referential     | "regarding X"/"pertaining to X"                                   |
+|    `CLA`     | Classificative  | "**in rows**" or "count **by fives**"                             |
+|    `CNV`     | Conductive      | "with respect to X"/"considered within the context of X"          |
+|    `BEN`     | Benefactive     | "for the sake of X"/"out of respect for X"                        |
+|    `TSP`     | Transpositive   | "on behalf of X"/"in place of X"/"instead of X"/"for X"           |
+|    `CMM`     | Commutative     | "in exchange for"                                                 |
+|    `COM`     | Comitative      | Accompaniment; not necessarily same action ("with X")             |
+|    `CNJ`     | Conjunctive     | Accompaniment; same activity ("along with X"/"alongside X")       |
+|    `CVS`     | Conversive      | Exception to a hypothetical situation ("unless X"/"if not for X") |
+|    `DEP`     | Dependent       | "depending on X"                                                  |
+|    `PVS`     | Provisional     | "in the case of X"/"provided that there is X" (circumstantial)    |
+|    `PTL`     | Postulative     | "in the case of X"/"if X" (implying causal relationship)          |
+|    `CON`     | Concessive      | "despite X"/"in spite of X"/"regardless of X"/"no matter what"    |
+|    `EXC`     | Exceptive       | "except for X"/"excluding X"                                      |
+|    `AVR`     | Aversive        | "for fear of X"/"to avoid X"                                      |
+|    `CMP`     | Comparative     | "as opposed to X"/"versus X"                                      |
+|    `EXM`     | Exemplificative | "e.g. X"                                                          |
 
-Not all stems can be used with either Function; most nominal (noun) stems only make sense with the Stative function, and some verbal stems only make sense with the Dynamic.		
+### Utilitative cases
+
+| Abbreviation | Name        | Use                                                |
+|:------------:|-------------|----------------------------------------------------|
+|    `APL`     | Applicative | Current utilization ("used for X"/"used as X")     |
+|    `PUR`     | Purposive   | Intended/general utilization ("meant for X")       |
+|    `UTL`     | Utilitative | Being utilized; not necessarily for present action |
+
+### Temporal cases
+
+| Abbreviation | Name           | Use                                                                         |
+|:------------:|----------------|-----------------------------------------------------------------------------|
+|    `SML`     | Simultaneitive | Same time                                                                   |
+|    `ASS`     | Assessive      | "per X"/"for each X"                                                        |
+|    `CNR`     | Concursive     | Beginning to end ("during X")                                               |
+|    `ACS`     | Accessive      | Instant in time ("upon **impact**"                                          |
+|    `DFF`     | Diffusive      | Fuzzy time period, but one event ("over the course of X")                   |
+|    `PER`     | Periodic       | Multiple events scattered throughout                                        |
+|    `PRO`     | Prolapsive     | Event takes entire duration ("through X")                                   |
+|    `PCV`     | Precursive     | "before X"/"prior to X"/"preceding X"                                       |
+|    `PCR`     | Postcursive    | "after X"/"subsequent to X"/"following X"                                   |
+|    `ELP`     | Elapsive       | Time passed since event ("X ago")                                           |
+|    `ALP`     | Allapsive      | Time until event ("X from now"/"in X")                                      |
+|    `INP`     | Interpolative  | Duration ("**3-minute** song"/"each lasting X")                             |
+|    `EPS`     | Episodic       | Recurring time period ("**every three days**"/"**each year**"/"**by day**") |
+|    `PLM`     | Prolimitive    | Temporal limit ("by X"/"**by evening**)                                     |
+|    `LIM`     | Limitive       | Event culminating in anticipatory context ("in time for X")                 |
+
+
+### Spatial cases
+
+| Abbreviation | Name        | Use                                                                   |
+|:------------:|-------------|-----------------------------------------------------------------------|
+|    `LOC`     | Locative    | Location ("in X"/"by X"/"at X")                                       |
+|    `ORI`     | Orientative | Direction serving as forward ("**feet-first**"/"**sideways** motion") |
+|    `PSV`     | Procursive  | Orientational reference point ("turned **her back** on him")          |
+|    `ALL`     | Allative    | Motion towards ("towards X"/"headed **home**")                        |
+|    `ABL`     | Ablative    | Motion away from ("from the direction of X")                          |
+|    `NAV`     | Navigative  | "**down the street**"/"**diagonally**"                                |
+
+### Interjective cases
+
+| Abbreviation | Name         | Use                                                                                                |
+|:------------:|--------------|----------------------------------------------------------------------------------------------------|
+|    `VOC`     | Vocative     | [Direct address](http://www.softschools.com/examples/grammar/nouns_of_direct_address_examples/59/) |
+|    `ITJ`     | Interjective | Interjection or answer to a question                                                               |
+
+### Comparison cases
+
+[TODO]
+
+## Case-frame
+
+Case-frame is Yalbi's mechanism for emulating subordinate clauses. [Here's an explanation.](syntax.md#case-frames) [TODO] Case frame is marked in gloss as `FRM`.
+
+## Function
+
+Yalbi's Function serves a similar purpose to the corresponding category in Ithkuil. Only verbs carry Function.
+
+| Abbreviation | Name        | Use                             | Example                |
+|:------------:|-------------|---------------------------------|------------------------|
+|    `STA`     | Stative     | To be [verb]ing; state of being | To be wearing a bowtie |
+|    `DYN`     | Dynamic     | To [verb]; action               | To wear a bowtie       |
+|    `MNF`     | Manifestive | To be [noun]; class membership  | To be a bowtie         |
+
+Most stems contain both a "verbal" (STA/DYN) and "nominal" (MNF) definition. For those that do not contain a verbal definition, Stative and Dynamic function may be translated as "to be functioning as X" and "to function as X" respectively. [TODO] Give more details; clarify the difference between STA and DYN, and make sure MNF isn't used as a cop-out solution to translating "be." Also explain where I hid DSC after murdering it.
 
 ## Illocution
 
@@ -62,10 +158,8 @@ Yalbi's Illocution merges Ithkuil's Illocution and Sanction.
 |    `ADM`     | Admonitive           | Warning ("Be wary of X")                                                |
 |    `HOR`     | Hortative            | Wishing ("If only X")                                                   |
 |    `DEC`     | Declarative          | Formal announcement; effecting a change per se                          |
-|    `FRM`     | Framed               | The start of a [case-frame](syntax.md#case-frames)                      |
-|  `FRM-IRG`   | Framed interrogative | The start of an [Interrogative case-frame](syntax.md#case-frames)       |
 
-On its own, `IRG` Interrogative illocution asks a true/false question: "Is X true?" Alternatively, `IRG` can be used with certain suffixes to ask other types of questions. Likewise, `FRM-IRG` Framed interrogative illocution is translated as a true/false indirect question ("whether X is true") and can be used with certain suffixes to ask other types of questions.
+~~On its own, `IRG` Interrogative illocution asks a true/false question: "Is X true?" Alternatively, `IRG` can be used with certain suffixes to ask other types of questions. Likewise, `FRM-IRG` Framed interrogative illocution is translated as a true/false indirect question ("whether X is true") and can be used with certain suffixes to ask other types of questions.~~ [TODO] Interrogative illocution needs to be rethought.
 
 ## Validation
 
@@ -98,42 +192,33 @@ With `IRG` Interrogative illocution, Validation might be translated as "I [think
 
 Perspective has been copied almost directly from Ithkuil.
 
-| Abbreviation | Name      | Nominal meaning       | Verbal meaning                                                          |
-|:------------:|-----------|-----------------------|-------------------------------------------------------------------------|
-|     `M`      | Monadic   | Singular              | An event occurring in the present context (simple present tense)        |
-|     `U`      | Unbounded | Plural                | An event that does not occur in the present context (simple past tense) |
-|     `N`      | Nomic     | All instances ever    | Universal rule (eg. "Gravity is one of the fundamental forces")         |
-|     `A`      | Abstract  | The idea of X, X-ness | "Timeless" verb form (infinitives, gerundives, etc.)                    |
+| Abbreviation | Name      | Nominal meaning         | Verbal meaning                                                  |
+|:------------:|-----------|-------------------------|-----------------------------------------------------------------|
+|     `M`      | Monadic   | Singular                | An event occurring once or repeated within one context          |
+|     `U`      | Unbounded | Plural (not collective) | An event occurring multiple disconnected times                  |
+|     `N`      | Nomic     | All instances ever      | Universal rule (eg. "Gravity is one of the fundamental forces") |
+|     `A`      | Abstract  | The idea of X, X-ness   | "Timeless" verb form (infinitives, gerundives, etc.)            |
 
-Abstract perspective is generally not used with main verbs.
+Abstract perspective is not permitted with main verbs.
 
-Collective nouns are shown either by derivations or using <some suffix that hasn't been invented yet>. [TODO]
-
-Nouns may be marked for perspective only once, at the end of the word. `DYN` verbs are marked for perspective only once, at the beginning of the word. `STA` verbs may be marked for perspective at both the beginning and the end of the word; the first marking is applied verbally, and the second is applied nominally.
-
-Perspective is applied nominally or verbally based on grammatical role, not derivative root.
+Collective nouns are shown using <some suffix that hasn't been invented yet>. [TODO]
 
 Here are some examples of Perspective in use:
 
-| Gloss                                  | English                          |
-|----------------------------------------|----------------------------------|
-| _to like_-DYN-N _I_-AFF _cookie_-**M** | "I like a cookie."               |
-| _to like_-DYN-N _I_-AFF _cookie_-**U** | "I like [some] cookies."         |
-| _to like_-DYN-N _I_-AFF _cookie_-**N** | "I like [all] cookies."          |
-| _to like_-DYN-N _I_-AFF _cookie_-**A** | "I like cookie-ness."            |
-| _to jump_-DYN-**M** _I_-IND            | "I am jumping."                  |
-| _to jump_-DYN-**U** _I_-IND            | "I was jumping."                 |
-| _to jump_-DYN-**N** _I_-IND            | "I jump [in general]."           |
-| _to jump_-DYN-**A**-FRM _I_-IND        | "the idea of me jumping"         |
-| _necktie_-STA-**M**-**M** _it_-OBL     | "It's a necktie."                |
-| _necktie_-STA-**M**-**U** _it_-OBL     | "It's [some] neckties."          |
-| _necktie_-STA-**M**-**N** _it_-OBL     | "It's [all] neckties." **?**     |
-| _necktie_-STA-**M**-**A** _it_-OBL     | "It is necktie-ness." **?**      |
-| _necktie_-STA-**U**-**M** _it_-OBL     | "It was a necktie."              |
-| _necktie_-STA-**N**-**M** _it_-OBL     | "It is a necktie [in general]."  |
-| _necktie_-STA-**A**-**M**-FRM _it_-OBL | "the idea of it being a necktie" |
-
-The statements marked with **?** are logically questionable, but grammatically valid.
+| Gloss                                      | English                                               |
+|--------------------------------------------|-------------------------------------------------------|
+| _to like_-ASR-N _I_-AFF _cookie_-OBL-**M** | "I like a cookie."                                    |
+| _to like_-ASR-N _I_-AFF _cookie_-OBL-**U** | "I like [some] cookies."                              |
+| _to like_-ASR-N _I_-AFF _cookie_-OBL-**N** | "I like [all] cookies."                               |
+| _to like_-ASR-N _I_-AFF _cookie_-OBL-**A** | "I like cookie-ness."                                 |
+| _to jump_-ASR-**M** _I_-IND                | "I am jumping."                                       |
+| _to jump_-ASR-**U** _I_-IND                | "I have jumped [several disconnected times]."         |
+| _to jump_-ASR-**N** _I_-IND                | "I jump [in general]."                                |
+| _to jump_-ASR-**A** _I_-INDp               | "the idea of me jumping"                              |
+| _necktie_-ASR-**M** _it_-OBL               | "It's a necktie."                                     |
+| _necktie_-ASR-**U** _it_-OBL               | "It has been a necktie [several disconnected times]." |
+| _necktie_-ASR-**N** _it_-OBL               | "It is a necktie [in general]."                       |
+| _necktie_-ASR-**A** _it_-OBLp              | "the idea of it being a necktie"                      |
 
 ## Essence
 
@@ -146,12 +231,12 @@ Yalbi's Essence is identical to Ithkuil's Essence, except that `RPV` Representat
 
 ## Context
 
-Yalbi's Context is similar to Ithkuil's Context, but without the Amalgamative or Functional. Additionally, `RPS` Representative has been renamed to `MTR` Metaphorical to reduce confusion.
+Yalbi's Context is similar to Ithkuil's Context, but without the Amalgamative or Functional. Additionally, `RPS` Representational has been renamed to `MTR` Metaphorical to reduce confusion.
 
-| Abbreviation |     Name     | Use                                                 | Example                      |
-|:------------:|:------------:|-----------------------------------------------------|------------------------------|
-|    `EXS`     | Existential  | Default context; no special meaning                 | "It's a cat."                |
-|    `MTR`     | Metaphorical | A metaphor for something; not to be taken literally | "It's a (metaphorical) cat." |
+| Abbreviation |     Name     | Use                                 | Example                      |
+|:------------:|:------------:|-------------------------------------|------------------------------|
+|    `EXS`     | Existential  | Default context; no special meaning | "It's a cat."                |
+|    `MTR`     | Metaphorical | A metaphor for something            | "It's a (metaphorical) cat." |
 
 Note that the Metaphorical context operates independently from Essence; one can have a metaphor for a thing which really exists, or a metaphor for a thing which does not exist.
 
@@ -159,4 +244,4 @@ Yalbi's `MTR` Metaphorical essence is based on to Ithkuil's `RPS` Representation
 
 ## Case-frame
 
-Yalbi uses case-frames to represent subordinate clauses. A case-frame always begins a "framed verb," a verb with [Case](#case) instead of [Illocution](#illocution) and [Validation](#validation). A case-frame ends with <some suffix that hasn't been invented yet> [TODO]. [TODO] Yalbi has two types of case-frames: normal (`FRM`) and interrogative (`FRM-IRG`). Interrogative case-frames are used to ask indirect questions; normal case-frames are used for all other purposes. Other than that, case-frames work exactly as they do in Ithkuil, so just go and read [JQ's explanation](http://ithkuil.net/05_verbs_1.html#Sec5o4) for now.
+Yalbi uses case-frames to represent subordinate clauses. A case-frame always begins a "framed verb," a verb with [Case](#case) instead of [Illocution](#illocution) and [Validation](#validation). A case-frame ends with <some suffix that hasn't been invented yet> [TODO]. [TODO] Case-frames work exactly as they do in Ithkuil, so just go and read [JQ's explanation](http://ithkuil.net/05_verbs_1.html#Sec5o4) for now.

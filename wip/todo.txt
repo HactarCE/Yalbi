@@ -12,3 +12,5 @@ move "integrated carrier" and call it something else maybe?
 
 "root incorp" using type 2 case suffix?
 CV_suffix CV_root C_deriv V_something?
+
+interrogative = requesting information (= please tell me about X) ?

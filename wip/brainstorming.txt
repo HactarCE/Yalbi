@@ -1,3 +1,56 @@
+
+.VCVC. - formative (first stress)
+ CV - detached modifier
+ CVC - pronoun/carrier
+ əCV.. - detached modifier (second stress)
+ VC - pronoun
+.VC - carrier
+
+ROOT VOWELS
+a/e/o/u - normal
+ai/ei/oi/au - carrier
+i - pronoun
+
+
+
+
+
+
+COMPARISON
+
+/ ^
+/ -
+/ _
+\ ^
+\ -
+\ _
+- ^
+- -
+- _
+/ ?
+\ ?
+- ?
+
+
+_ _
+^ ^
+- -
+_ ^
+^ _
+_ -
+^ -
+- ^
+- _
+/ ?
+\ ?
+- ?
+
+
+
+
+
+
+
 CARRIER TYPES
 
 L

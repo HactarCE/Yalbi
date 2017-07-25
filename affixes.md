@@ -1,30 +1,15 @@
 # Affixes
 
 * [Cd - Derived root](#cr-and-cs)
-* [Cf - Case-frame + Function + Perspective](#cf)
 * [Cp - Carrier type](#cp)
 * [Cs - Stem](#cvr-and-cs)
-* [CVc - Case](#vc-and-cvc)
+* [CVc - Case](#cvc)
+* [CVf - Case-frame + Function + Perspective](#vf)
 * [CVm - Modifier](#cvm)
 * [CVn - Illocution + Validation + Function + Perspective](#cvn)
 * [CVr - Root](#cvr-and-cs)
-* [Vc - Case](#vc-and-cvc)
 * [Ve - Extension + Perspective + Essence](#ve)
 * [Vi - Modifier role](#vi)
-* [Vr - Pattern + Stem + Designation](#vr)
-
-## Cf
-
-Cf conveys Case-frame, Function, and Perspective.
-
-| Cf            | `M` | `U` | `N` | `A` |
-|---------------|:---:|:---:|:---:|:---:|
-| `STA/FRM`     |  s  |  c  | sr  | cr  |
-| `DYN/FRM`     | st  | ct  | str | ctr |
-| `STA/FRM-IRG` | sp  | cp  | spr | cpr |
-| `DYN/FRM-IRG` | sk  | ck  | skr | ckr |
-
-Cf and CVn are easy to tell apart; CVn never has **s** or **c**, while Cf always begins with one of them.
 
 ## Cp
 
@@ -38,9 +23,9 @@ CVm conveys a modifier. The consonantal portion of CVm is listed in the [modifie
 
 | Vm     | Degree 1 | Degree 2 | Degree 3 | Degree 4 | Degree 5 | Degree 6 | Degree 7 | Degree 8 | Degree 9 |
 |--------|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
-| Type 1 |  iu/ui   |  ia/ua   |  io/uo   |  ie/ue   |    a     |    ei    |    oi    |    ai    |    au    |
-| Type 3 |   aui    |   aua    |    oa    |    oe    |    o     |   aiu    |   aia    |   aio    |   aie    |
-| Type 2 |   eie    |   eio    |   eia    |   eiu    |    e     |   oie    |   oio    |   oia    |   oiu    |
+| Type 1 |    au    |    ai    |    oi    |    ei    |    a     |    e     |    o     |    i     |    u     |
+| Type 3 |    iu    |    ia    |    io    |    ie    |    oa    |    ue    |    uo    |    ua    |    ui    |
+| Type 2 |   aiu    |   aia    |   aio    |   aie    |    oe    |   aue    |   auo    |   aua    |   aui    |
 
 ## CVn
 
@@ -48,14 +33,17 @@ CVn conveys Illocution, Validation, Function, and Perspective. It is split into 
 
 ### CVn1
 
-CVn1 conveys Function and Perspective.
+CVn1 conveys Function.
 
-| CVn1  | `M` | `U` | `N` | `A` |
-|-------|:---:|:---:|:---:|:---:|
-| `STA` | (h) |  p  |  t  |  k  |
-| `DYN` |  f  |  b  |  d  |  g  |
+| Function | CVn1 |
+|----------|:----:|
+| `STA`    |  -   |
+| `DYN`    |  s   |
+| `MNF`    |  c   |
 
-The CVn1 value for `STA/M` is **h** if CVn2 conveys `AXM` Axiomatic illocution; otherwise it is blank.
+The CVn1 value for `STA/M` is **h** if CVn2 conveys `IPU` Imputative, `AXM`, or `ADM` Axiomatic illocution; otherwise it is blank.
+
+[TODO] Why would a verb be Abstract but still have Illocution? Abstract verbs should have case instead -- like framed verbs without a case-frame.
 
 ### CVn2
 
@@ -63,28 +51,57 @@ CVn2 conveys Illocution and Validation.
 
 | Cn                              | `ASR` | `ALG` | `IPU` | `THR` | `EXV` | `AXM` | `DIR` | `IRG` | `ADM` | `HOR` | `DEC` |
 |---------------------------------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| `CNF` Confirmative              |  la   |  ra   |  ya   |   -   |   -   |   a   |  ria  |  rie  |  wa   |  rio  |  riu  |
-| `AFM` Affirmative               |  le   |  re   |  ye   |   -   |   -   |   e   |   -   |   -   |  we   |   -   |   -   |
-| `RPT` Reportative               |  li   |  ri   | yaui  |   -   |   -   |   i   |   -   |   -   |  wi   |   -   |   -   |
-| `INF` Inferential               |  lo   |  ro   |  yo   |  lia  |  lie  |   o   |   -   |   -   |  wo   |   -   |   -   |
-| `ITU` Intuitive                 |  lau  |  rau  |  yau  |  lio  |  liu  |  au   |   -   |   -   |  wau  |   -   |   -   |
-| `PSM-TEN` Presumptive-Tentative |  lai  |  rai  |  yai  |   -   |   -   |  ai   |   -   |   -   |  wai  |   -   |   -   |
-| `PSM-PUT` Presumptive-Putative  |  lei  |  rei  |  yei  |   -   |   -   |  ei   |   -   |   -   |  wei  |   -   |   -   |
-| `PSM-DUB` Presumptive-Dubious   |  loi  |  roi  |  yoi  |   -   |   -   |  oi   |   -   |   -   |  woi  |   -   |   -   |
-| `PPT-TEN` Purportive-Tentative  |  loa  |  roa  |  yoa  |   -   |   -   |  oa   |   -   |   -   |  woa  |   -   |   -   |
-| `PPT-PUT` Purportive-Putative   |  loe  |  roe  |  yoe  |   -   |   -   |  oe   |   -   |   -   |  woe  |   -   |   -   |
-| `PPT-DUB` Purportive-Dubious    |  lu   |  ru   |  yu   |   -   |   -   |   u   |   -   |   -   | waiu  |   -   |   -   |
-| `IPB-TEN` Improbable-Tentative  |  lua  |  rua  |  yua  |   -   |   -   |  ua   |   -   |   -   |  wia  |   -   |   -   |
-| `IPB-PUT` Improbable-Putative   |  lue  |  rue  |  yue  |   -   |   -   |  ue   |   -   |   -   |  wie  |   -   |   -   |
-| `IPB-DUB` Improbable-Dubious    |  lui  |  rui  |  yui  |   -   |   -   |  ui   |   -   |   -   |  wiu  |   -   |   -   |
+| `CNF` Confirmative              |  la   |  ra   |  ta   |   -   |   -   |  pa   |  kia  |  kie  |  ka   |  kio  |  kiu  |
+| `AFM` Affirmative               |  le   |  re   |  te   |   -   |   -   |  pe   |   -   |   -   |  ke   |   -   |   -   |
+| `RPT` Reportative               |  li   |  ri   |  ti   |   -   |   -   |  pi   |   -   |   -   |  ki   |   -   |   -   |
+| `INF` Inferential               |  lo   |  ro   |  to   |  tia  |  tie  |  po   |   -   |   -   |  ko   |   -   |   -   |
+| `ITU` Intuitive                 |  lau  |  rau  |  tau  |  tio  |  tiu  |  pau  |   -   |   -   |  kau  |   -   |   -   |
+| `PSM-TEN` Presumptive-Tentative |  lai  |  rai  |  tai  |   -   |   -   |  pai  |   -   |   -   |  kai  |   -   |   -   |
+| `PSM-PUT` Presumptive-Putative  |  lei  |  rei  |  tei  |   -   |   -   |  pei  |   -   |   -   |  kei  |   -   |   -   |
+| `PSM-DUB` Presumptive-Dubious   |  loi  |  roi  |  toi  |   -   |   -   |  poi  |   -   |   -   |  koi  |   -   |   -   |
+| `PPT-TEN` Purportive-Tentative  |  loa  |  roa  |  toa  |   -   |   -   |  poa  |   -   |   -   |  koa  |   -   |   -   |
+| `PPT-PUT` Purportive-Putative   |  loe  |  roe  |  toe  |   -   |   -   |  poe  |   -   |   -   |  koe  |   -   |   -   |
+| `PPT-DUB` Purportive-Dubious    |  lu   |  ru   |  tu   |   -   |   -   |  pu   |   -   |   -   |  ku   |   -   |   -   |
+| `IPB-TEN` Improbable-Tentative  |  lua  |  rua  |  tua  |   -   |   -   |  pua  |   -   |   -   |  kua  |   -   |   -   |
+| `IPB-PUT` Improbable-Putative   |  lue  |  rue  |  tue  |   -   |   -   |  pue  |   -   |   -   |  kue  |   -   |   -   |
+| `IPB-DUB` Improbable-Dubious    |  lui  |  rui  |  tui  |   -   |   -   |  pui  |   -   |   -   |  kui  |   -   |   -   |
 
 ## CVr and Cs
 
 CVr is any root from the [roots lexicon](roots.md). Cs is a predefined consonantal stem, which is listed for each root. The default value for Cs is **l**.
 
-## Vc and CVc
+## CVc
 
-Vc and CVc each convey Case. For nouns and framed verbs, the vocalic values are listed under [the Case section](morphology.md#case) in [Morphology](morphology.md). The consonantal portion of CVc is always **m**. For unframed verbs and integrated quotations [TODO], which carry no Case, Vc is **ə**.
+CVc conveys Case. Each Case is also marked as to whether it pertains to the verb (e.g. `OBL`), the previous noun (e.g. `OBLp`), or the next noun (e.g. `OBLn`). Cases are grouped into modifier-like sets of nine; each case is assigned a vowel based on its degree and "type" (1 = pertains to verb, 2 = previous noun, 3 = next noun), using the vocalic values of [CVm](#cvm). Case "type" does not at all correlate with modifier "type" except that they use the same endings. [TODO] This is really confusing.
+
+Degrees are listed along the top and consonants are listed along the left; the intersections correspond to cases.
+
+| CVc |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  | Case category |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|---------------|
+| (h) | ABS | IND | ERG | DER | OBL | SIT | EFF | ESS | AFF | Transrelative |
+|  b  | GEN | ITP | OGN | PDC | COR | PAR | IDP | POS | PRP | Possessive    |
+|  d  |  -  |  -  |  -  | APL | UTL | PUR |  -  |  -  |  -  | Utilitative   |
+|  m  |  -  | APP | ASI | REF | FUN | CNV | TSP | CLA | CSD | Associative 1 |
+|  n  | CRS | CMP | MED | COM | TFM | CNJ | CPS | CVS | CMM | Associative 2 |
+|  ŋ  | AVR | CON | EXC | PTL | DEP | PVS | EXM | PRD | BEN | Associative 3 |
+| sp  | PLM | ELP | PCV | CNR | SML | ASC | PCR | ALP | LIM | Temporal 1    |
+| st  | INP | EPS | ASS | PER | DFF | PRO |  -  |  -  |  -  | Temporal 2    |
+| sk  |  -  | ABL |  -  | PSV | LOC | NAV | ORI | ALL |  -  | Spatial       |
+|  x  |  -  |  -  |  -  |  -  | VOC |  X  | ITJ |  X  |  X  | Interjective  |
+
+[TODO] Comparison cases (**s**/**c** + nasal)
+
+**h** is omitted if word-initial.
+
+## CVf
+
+CVf conveys Case-frame and Function.
+
+| CVf               | `FRM` Framed |
+|-------------------|:------------:|
+| `STA` Stative     |      xe      |
+| `DYN` Dynamic     |      xi      |
+| `MNF` Manifestive |      xu      |
 
 ## Ve
 
@@ -92,14 +109,14 @@ Ve conveys Perspective, Essence, and Context.
 
 | Ve      | `EXS` Existential | `MTR` Metaphorical |
 |---------|:-----------------:|:------------------:|
-| `M/NRM` |        (a)        |       ia/ua        |
-| `M/RPS` |        ai         |       ie/ue        |
-| `U/NRM` |         e         |       io/uo        |
-| `U/RPS` |        ei         |       iu/ui        |
-| `N/NRM` |         o         |         oa         |
-| `N/RPS` |        oi         |         oe         |
-| `A/NRM` |        i/u        |        aia         |
-| `A/RPS` |        au         |        aie         |
+| `M/NRM` |         a         |         ua         |
+| `M/RPS` |        ai         |         ia         |
+| `U/NRM` |         e         |         ue         |
+| `U/RPS` |        ei         |         ie         |
+| `N/NRM` |         o         |         uo         |
+| `N/RPS` |        oi         |         io         |
+| `A/NRM` |         u         |         i          |
+| `A/RPS` |        ui         |         iu         |
 
 ## Vi
 

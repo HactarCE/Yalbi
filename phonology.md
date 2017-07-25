@@ -19,10 +19,8 @@ Where plosives and fricatives appear in pairs, the one on the left is unvoiced a
 | Labiodental  |       |         |    f v    |             |
 | Alveolar     |   n   |   t d   |    s z    |      r      |
 | Postalveolar |       |         |    c j    |     (r)     |
-| Palatal      |       |         |           |      y      |
-| Labiovelar   |       |         |           |      w      |
 | Velar/uvular |   ŋ   |   k g   |     x     |             |
-| Glottal      |       |    '    |     h     |             |
+| Glottal      |       |         |     h     |             |
 | Lateral      |       |         |           |      l      |
 
 The alveolar approximant **r** may also be pronounced as an alveolar tap.
@@ -35,20 +33,43 @@ Unvoiced plosives may optionally be aspirated when followed immediately by a vow
 
 Front and central vowels are unrounded; back vowels are rounded.
 
-|      |  Front  | Central |   Back   |
-|------|:-------:|:-------:|:--------:|
-| High | i /i~ɪ/ |         | u /u~ʊ/  |
-| Mid  |  e /ɛ/  | ə /ə~ʌ/ | o /o~ou/ |
-| Low  |         | a /a~ɑ/ |          |
+|      |   Front   | Central |   Back    |
+|------|:---------:|:-------:|:---------:|
+| High | i /i~ɪ~j/ |         | u /u~ʊ~w/ |
+| Mid  |   e /ɛ/   | ə /ə~ʌ/ | o /o~oʊ/  |
+| Low  |           | a /a~ɑ/ |           |
 
-Yalbi has the following dipthongs:
+Yalbi has four dipthongs.
 
-* ai /ai/
-* ei /ei~e/
-* oi /oi/
-* au /au/
+* ai /aɪ/
+* ei /eɪ~e/
+* oi /oɪ/
+* au /aʊ/
 
-Any other two-vowel combinations are pronounced as two syllables. In three-vowel combinations, the first two vowels are treated as a diphthong and the third is pronounced as a separate syllable.
+The following eight vowel combinations may be pronounced either as two separate syllables, or as diphthongs. The timing of the transition doesn't matter; as long as they are distinct from every other vowel/diphthong, pronounce these however you want.
+
+* ia /ia~ja/
+* ie /iɛ~jɛ/
+* io /io~jo/
+* iu /iu~ju/
+* ua /ua~wa/
+* ue /uɛ~wɛ/
+* ui /ui~wi/
+* uo /uo~wo/
+
+These two vowel combinations are always pronounced as two separate syllables.
+
+* oa
+* oe
+
+Three-vowel combinations are always disyllabic, and may be pronounced either as a vowel followed by a diphthong, or as a diphthong followed by a vowel. There are sixteen such three-vowel combinations:
+
+* aia, aie, aio, aiu
+* eia, eie, eio, eiu
+* oia, oie, oio, oiu
+* aua, aue, aui, auo
+
+[TODO] Probably most of these won't be used, so remove the ones that aren't needed?
 
 When an affix containing a disyllabic vowel combination is said to be stressed, only the second syllable of the vowel combination is actually stressed.
 
@@ -68,7 +89,7 @@ Syllables consist of three parts: [onset](#syllable-onset), [nucleus](#syllable-
 
 The onset of a syllable can follow any of these patterns:
 
-* Any consonant (including **h** and the glottal stop, the latter of which is not written when word-initial)
+* Any consonant (including **h**)
 * Nasal + approximant
 * Fricative + approximant
 * **s**/**c** + nasal
@@ -77,9 +98,9 @@ The onset of a syllable can follow any of these patterns:
 * **dz**/**dj** (+ approximant)
 * **pf**/**bv** (+ approximant)
 
-Alternatively, if the syllable is not word-initial and is preceded by an empty coda, a syllable nucleus may be empty.
+Alternatively, if the syllable is not word-initial and is preceded by an empty coda, a syllable onset may be empty.
 
-These rules permit a total of **147** syllable onsets (not including the empty onset).
+These rules permit a total of **93** syllable onsets (not including the empty onset).
 
 ### Syllable Nucleus
 
@@ -87,19 +108,19 @@ The nucleus of a syllable can follow any of these patterns:
 
 * Any vowel
 * Any diphthong
-* Any nasal, **l**, or **r** (if the nucleus and coda are both empty)
+* Any nasal or approximant (if the nucleus and coda are both empty)
 
 ### Syllable Coda
 
-* Any consonant except **w** or **y**
-* (**l**/**r** +) Nasal + fricative (excluding **x**)
-* **l**/**r** + plosive/fricative
+* Any consonant
+* (approximant +) Nasal + fricative (excluding **x**)
+* approximant + plosive/fricative
 * Unvoiced plosive + **s**/**c**
 * Voiced plosive + **z**/**j**
 * **s**/**c** + unvoiced plosive
 * **z**/**j** + voiced plosive
-* (**l**/**r** +) **mp**/**nt**/**ŋk**
-* (**l**/**r** +) **np**
+* (approximant +) **mp**/**nt**/**ŋk**
+* (approximant +) **np**
 
 Alternatively, the syllable coda may be empty.
 

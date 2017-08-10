@@ -7,9 +7,9 @@
 .VC - carrier
 
 ROOT VOWELS
-a/e/o/u - normal
+a/i/o/u - normal
 ai/ei/oi/au - carrier
-i - pronoun
+e - modifier
 
 
 

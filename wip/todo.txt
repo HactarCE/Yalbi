@@ -14,3 +14,11 @@ move "integrated carrier" and call it something else maybe?
 CV_suffix CV_root C_deriv V_something?
 
 interrogative = requesting information (= please tell me about X) ?
+
+MODIFIER IDEAS
+- spatial version of TPI
+  - at a single point
+  - over a small area
+  - over a large area
+  - ubiquitous(ly)
+- Degree of Consensus (see MD24)

@@ -29,42 +29,26 @@ CVm conveys a modifier. The consonantal portion of CVm is listed in the [modifie
 
 ## CVn
 
-CVn conveys Illocution, Validation, Function, and Perspective. It is split into two smaller affixes: CVn1 and CVn2.
+CVn conveys Illocution and Validation.
 
-### CVn1
+| Cn                                | `ASR` | `ALG` | `IPU` | `THR` | `EXV` | `AXM` | `DIR` | `IRG` | `ADM` | `HOR` | `DEC` |
+|-----------------------------------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+| `CNF` Confirmative                |  la   |  le   |  li   |   -   |   -   |  lo   |  lai  |  lei  |  lu   |  rai  |  rei  |
+| `AFM` Affirmative                 |  ra   |  re   |  ri   |   -   |   -   |  ro   |   -   |   -   |  ru   |   -   |   -   |
+| `RPT` Reportative                 |  ja   |  je   |  ji   |   -   |   -   |  jo   |   -   |   -   |  ju   |   -   |   -   |
+| `INF` Inferential                 |  sa   |  se   |  si   |  sai  |  sei  |  so   |   -   |   -   |  su   |   -   |   -   |
+| `ITU` Intuitive                   |  ca   |  ce   |  ci   |  cai  |  cei  |  co   |   -   |   -   |  cu   |   -   |   -   |
+| `TS-V` Trustworthy-Verifiable     |  bla  |  ble  |  bli  |   -   |   -   |  blo  |   -   |   -   |  blu  |   -   |   -   |
+| `TS-U` Trustworthy-Unknown        |  ba   |  be   |  bi   |   -   |   -   |  bo   |   -   |   -   |  bu   |   -   |   -   |
+| `TS-N` Trustworthy-Unverifiable   |  bra  |  bre  |  bri  |   -   |   -   |  bro  |   -   |   -   |  bru  |   -   |   -   |
+| `US-V` Unknown-Verifiable         |  za   |  ze   |  zi   |   -   |   -   |  zo   |   -   |   -   |  zu   |   -   |   -   |
+| `US-U` Unknown-Unknown            |  da   |  de   |  di   |   -   |   -   |  do   |   -   |   -   |  du   |   -   |   -   |
+| `US-N` Unknown-Unverifiable       |  dra  |  dre  |  dri  |   -   |   -   |  dro  |   -   |   -   |  dru  |   -   |   -   |
+| `NS-V` Untrustworthy-Verifiable   |  gla  |  gle  |  gli  |   -   |   -   |  glo  |   -   |   -   |  glu  |   -   |   -   |
+| `NS-U` Untrustworthy-Unknown      |  ga   |  ge   |  gi   |   -   |   -   |  go   |   -   |   -   |  gu   |   -   |   -   |
+| `NS-N` Untrustworthy-Unverifiable |  gra  |  gre  |  gri  |   -   |   -   |  gro  |   -   |   -   |  gru  |   -   |   -   |
 
-CVn1 conveys Function.
-
-| Function | CVn1 |
-|----------|:----:|
-| `STA`    |  -   |
-| `DYN`    |  s   |
-| `MNF`    |  c   |
-
-The CVn1 value for `STA/M` is **h** if CVn2 conveys `IPU` Imputative, `AXM`, or `ADM` Axiomatic illocution; otherwise it is blank.
-
-[TODO] Why would a verb be Abstract but still have Illocution? Abstract verbs should have case instead -- like framed verbs without a case-frame.
-
-### CVn2
-
-CVn2 conveys Illocution and Validation.
-
-| Cn                              | `ASR` | `ALG` | `IPU` | `THR` | `EXV` | `AXM` | `DIR` | `IRG` | `ADM` | `HOR` | `DEC` |
-|---------------------------------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| `CNF` Confirmative              |  la   |  ra   |  ta   |   -   |   -   |  pa   |  kia  |  kie  |  ka   |  kio  |  kiu  |
-| `AFM` Affirmative               |  le   |  re   |  te   |   -   |   -   |  pe   |   -   |   -   |  ke   |   -   |   -   |
-| `RPT` Reportative               |  li   |  ri   |  ti   |   -   |   -   |  pi   |   -   |   -   |  ki   |   -   |   -   |
-| `INF` Inferential               |  lo   |  ro   |  to   |  tia  |  tie  |  po   |   -   |   -   |  ko   |   -   |   -   |
-| `ITU` Intuitive                 |  lau  |  rau  |  tau  |  tio  |  tiu  |  pau  |   -   |   -   |  kau  |   -   |   -   |
-| `PSM-TEN` Presumptive-Tentative |  lai  |  rai  |  tai  |   -   |   -   |  pai  |   -   |   -   |  kai  |   -   |   -   |
-| `PSM-PUT` Presumptive-Putative  |  lei  |  rei  |  tei  |   -   |   -   |  pei  |   -   |   -   |  kei  |   -   |   -   |
-| `PSM-DUB` Presumptive-Dubious   |  loi  |  roi  |  toi  |   -   |   -   |  poi  |   -   |   -   |  koi  |   -   |   -   |
-| `PPT-TEN` Purportive-Tentative  |  loa  |  roa  |  toa  |   -   |   -   |  poa  |   -   |   -   |  koa  |   -   |   -   |
-| `PPT-PUT` Purportive-Putative   |  loe  |  roe  |  toe  |   -   |   -   |  poe  |   -   |   -   |  koe  |   -   |   -   |
-| `PPT-DUB` Purportive-Dubious    |  lu   |  ru   |  tu   |   -   |   -   |  pu   |   -   |   -   |  ku   |   -   |   -   |
-| `IPB-TEN` Improbable-Tentative  |  lua  |  rua  |  tua  |   -   |   -   |  pua  |   -   |   -   |  kua  |   -   |   -   |
-| `IPB-PUT` Improbable-Putative   |  lue  |  rue  |  tue  |   -   |   -   |  pue  |   -   |   -   |  kue  |   -   |   -   |
-| `IPB-DUB` Improbable-Dubious    |  lui  |  rui  |  tui  |   -   |   -   |  pui  |   -   |   -   |  kui  |   -   |   -   |
+CVn is not allowed if Ve conveys `A` Abstract perspective.
 
 ## CVr and Cs
 
@@ -79,15 +63,15 @@ Degrees are listed along the top and consonants are listed along the left; the i
 | CVc |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  | Case category |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|---------------|
 | (h) | ABS | IND | ERG | DER | OBL | SIT | EFF | ESS | AFF | Transrelative |
-|  b  | GEN | ITP | OGN | PDC | COR | PAR | IDP | POS | PRP | Possessive    |
-|  d  |  -  |  -  |  -  | APL | UTL | PUR |  -  |  -  |  -  | Utilitative   |
-|  m  |  -  | APP | ASI | REF | FUN | CNV | TSP | CLA | CSD | Associative 1 |
-|  n  | CRS | CMP | MED | COM | TFM | CNJ | CPS | CVS | CMM | Associative 2 |
-|  ŋ  | AVR | CON | EXC | PTL | DEP | PVS | EXM | PRD | BEN | Associative 3 |
+|  m  | GEN | ITP | OGN | PDC | COR | PAR | IDP | POS | PRP | Possessive    |
+|  n  |  -  |  -  |  -  | APL | UTL | PUR |  -  |  -  |  -  | Utilitative   |
+|  p  |  -  | APP | ASI | REF | FUN | CNV | TSP | CLA | CSD | Associative 1 |
+|  t  | CRS | CMP | MED | COM | TFM | CNJ | CPS | CVS | CMM | Associative 2 |
+|  k  | AVR | CON | EXC | PTL | DEP | PVS | EXM | PRD | BEN | Associative 3 |
 | sp  | PLM | ELP | PCV | CNR | SML | ASC | PCR | ALP | LIM | Temporal 1    |
 | st  | INP | EPS | ASS | PER | DFF | PRO |  -  |  -  |  -  | Temporal 2    |
 | sk  |  -  | ABL |  -  | PSV | LOC | NAV | ORI | ALL |  -  | Spatial       |
-|  x  |  -  |  -  |  -  |  -  | VOC |  X  | ITJ |  X  |  X  | Interjective  |
+|  x  |  -  |  -  |  -  |  -  | VOC |  X  | ITJ |  X  |  -  | Interjective  |
 
 [TODO] Comparison cases (**s**/**c** + nasal)
 
@@ -97,11 +81,10 @@ Degrees are listed along the top and consonants are listed along the left; the i
 
 CVf conveys Case-frame and Function.
 
-| CVf               | `FRM` Framed |
-|-------------------|:------------:|
-| `STA` Stative     |      xe      |
-| `DYN` Dynamic     |      xi      |
-| `MNF` Manifestive |      xu      |
+| CVf | Case frame |
+|-----|:----------:|
+| xe  |    Nope    |
+| xi  |    Yup     |
 
 ## Ve
 

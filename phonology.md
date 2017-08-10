@@ -19,7 +19,7 @@ Where plosives and fricatives appear in pairs, the one on the left is unvoiced a
 | Labiodental  |       |         |    f v    |             |
 | Alveolar     |   n   |   t d   |    s z    |      r      |
 | Postalveolar |       |         |    c j    |     (r)     |
-| Velar/uvular |   ŋ   |   k g   |     x     |             |
+| Velar/uvular |       |   k g   |     x     |             |
 | Glottal      |       |         |     h     |             |
 | Lateral      |       |         |           |      l      |
 
@@ -33,11 +33,11 @@ Unvoiced plosives may optionally be aspirated when followed immediately by a vow
 
 Front and central vowels are unrounded; back vowels are rounded.
 
-|      |   Front   | Central |   Back    |
-|------|:---------:|:-------:|:---------:|
-| High | i /i~ɪ~j/ |         | u /u~ʊ~w/ |
-| Mid  |   e /ɛ/   | ə /ə~ʌ/ | o /o~oʊ/  |
-| Low  |           | a /a~ɑ/ |           |
+|      |   Front   |  Central  |   Back    |
+|------|:---------:|:---------:|:---------:|
+| High | i /i~ɪ~j/ |           | u /u~ʊ~w/ |
+| Mid  |   e /ɛ/   |           | o /o~oʊ/  |
+| Low  |           | a /a~ɑ~ə/ |           |
 
 Yalbi has four dipthongs.
 

@@ -31,7 +31,7 @@ modifiers_template.md
 '''
 
 def md_linkify(header_text):
-    return header_text.lower().translate(str.maketrans(' ', '-'), '!"#$%&\'()*+,./:;<=>?@[\]^`{|}~') # replace space with dash and remove all chars other than a-z, A-Z, 0-9, dash, and underscore
+    return header_text.lower().translate(str.maketrans(' ', '-', '!"#$%&\'()*+,./:;<=>?@[\]^`{|}~')) # replace space with dash and remove all chars other than a-z, A-Z, 0-9, dash, and underscore
 
 def format_roots(source):
     # [TODO] Warn if CV value is the same as another root or might conflict with a modifier

@@ -6,7 +6,6 @@
 * [Cp - Carrier type](#cp)
 * [Cs - Stem](#cvr-and-cs)
 * [CVc - Case](#cvc)
-* [CVf - Case-frame + Perspective](#vf)
 * [CVm - Modifier](#cvm)
 * [CVn - Illocution + Validation + Perspective](#cvn)
 * [CVr - Root](#cvr-and-cs)
@@ -79,14 +78,7 @@ Degrees are listed along the top and consonants are listed along the left; the i
 
 **h** is omitted if word-initial.
 
-## CVf
-
-CVf conveys Case-frame and Function.
-
-| CVf | Case frame |
-|-----|:----------:|
-| xe  |    Nope    |
-| xi  |    Yup     |
+In addition to case, CVc can convey whether a formative starts a case-frame. A value of **xe** or **xi** indicates that this formative is verb being used as a noun (translated "the act of doing X"), but only **xi** starts a case-frame. [TODO] Explain this better.
 
 ## Ve
 
@@ -105,4 +97,11 @@ Ve conveys Perspective, Essence, and Context.
 
 ## Vi
 
-Vi conveys the role of a detached modifier. Its values are listed under [the independent modifier section](morphophonology.md#independent-modifier) in [Morphophonology](morphophonology.md).
+Vi conveys the role of a [detached modifier](#morphophonology.md#detached-modifier).
+
+| Vi value | Abbreviation | Name              | Use                    |
+|:--------:|:------------:|-------------------|------------------------|
+|    o     |    `IJN`     | Interjection      | Interjection           |
+|    a     |    `ADV`     | Adverbial         | Modifies verb          |
+|    e     |    `ADJn`    | Adjectival (next) | Modifies next noun     |
+|    u     |    `ADJp`    | Adjectival (prev) | Modifies previous noun |

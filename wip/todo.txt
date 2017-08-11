@@ -24,3 +24,5 @@ MODIFIER IDEAS
 - Degree of Consensus (see MD24)
 
 TORTOISE
+
+maybe chroma/colorfulness?

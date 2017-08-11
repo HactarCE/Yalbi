@@ -27,9 +27,11 @@ Almost all modifiers can be used as roots by adding **e**. Stem indicates degree
 
 |      | Degree 1 | Degree 2 | Degree 3 | Degree 4 | Degree 5 | Degree 6 | Degree 7 | Degree 8 | Degree 9 |
 |------|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
-| Stem |    f     |    s     |    c     |    m     |    r     |    v     |    b     |    d     |    g     |
+| Stem |    f     |    s     |    c     |    n     |    x     |    m     |    p     |    t     |    k     |
 
-For example, **axred** means "[something] very large" and **laxred** means "to be [something] very large."
+**l** can be prepended to any of the above stems to refer to the quality itself rather than the thing that manifests that quality.
+
+For example, **axret** means "[something] very large" and **laxret** means "to be [something] very large."
 
 All of Yalbi's modifiers are listed below.
 

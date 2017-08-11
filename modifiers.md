@@ -22,19 +22,13 @@ There are nine degrees, which generally form spectrum from least to greatest. So
 
 Almost all modifiers can be used as roots by adding **e**. Stem indicates degree, according to the following table. **l** can be used to mean "a degree of X."
 
-| Degree | Stem |
-|--------|:----:|
-| 1      |  f   |
-| 2      |  s   |
-| 3      |  c   |
-| 4      |  m   |
-| 5      |  r   |
-| 6      |  v   |
-| 7      |  b   |
-| 8      |  d   |
-| 9      |  g   |
+|      | Degree 1 | Degree 2 | Degree 3 | Degree 4 | Degree 5 | Degree 6 | Degree 7 | Degree 8 | Degree 9 |
+|------|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+| Stem |    f     |    s     |    c     |    n     |    x     |    m     |    p     |    t     |    k     |
 
-For example, **axred** means "[something] very large" and **laxred** means "to be [something] very large."
+**l** can be prepended to any of the above stems to refer to the quality itself rather than the thing that manifests that quality.
+
+For example, **axret** means "[something] very large" and **laxret** means "to be [something] very large."
 
 All of Yalbi's modifiers are listed below.
 
@@ -116,7 +110,7 @@ CVr value: **ktre**
 8. this/that/said X; in said manner; in that way [identity known]
 9. at hand; under discussion; in this manner [identified in present context]
 
-This modifier is based on the `DEF` suffix from Ithkuil 2011.
+This modifier is based on the `DEF` suffix from [Ithkuil 2011](http://www.ithkuil.net/07_suffixes.htm).
 
 ### `DSR` Degree of Discretion
 
@@ -133,7 +127,7 @@ CVr value: **ntme**
 8. secret(ly)
 9. confidential(ly)/classified
 
-This modifier is based on the `DSR` suffix from Ithkuil 2011.
+This modifier is based on the `DSR` suffix from [Ithkuil 2011](http://www.ithkuil.net/07_suffixes.htm).
 
 ### `INL` Degree of Inclusion
 
@@ -150,7 +144,7 @@ CVr value: **nspe**
 8. almost every X; in almost every way
 9. each/every X; in each/every way
 
-This modifier is based on the `INL` suffix from Ithkuil 2011.
+This modifier is based on the `INL` suffix from [Ithkuil 2011](http://www.ithkuil.net/07_suffixes.htm).
 
 ### `EXT` Exactness of Identity / Identity as a Referent or Standard
 
@@ -167,7 +161,7 @@ CVr value: **rmce**
 8. just like that; thus(ly)
 9. the exact X; the very one; exactly thus/so
 
-This modifier is based on the `EXT` suffix from Ithkuil 2011.
+This modifier is based on the `EXT` suffix from [Ithkuil 2011](http://www.ithkuil.net/07_suffixes.htm).
 
 ## Qualitative
 
@@ -186,7 +180,7 @@ CVr value: **xre**
 8. very large; enormous
 9. too large
 
-This modifier is based on the `SIZ` suffix from Ithkuil 2011.
+This modifier is based on the `SIZ` suffix from [Ithkuil 2011](http://www.ithkuil.net/07_suffixes.htm).
 
 ## Miscellaneous
 

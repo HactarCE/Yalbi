@@ -33,7 +33,7 @@ CVn conveys Illocution and Validation.
 
 | Cn                                | `ASR` | `ALG` | `IPU` | `THR` | `EXV` | `AXM` | `DIR` | `IRG` | `ADM` | `HOR` | `DEC` |
 |-----------------------------------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| `CNF` Confirmative                |  la   |  le   |  li   |   -   |   -   |  lo   |  lai  |  lei  |  lu   |  rai  |  rei  |
+| `CNF` Confirmative                |  la   |  le   |  li   |   -   |   -   |  lo   |  rai  |  rei  |  lu   |  lai  |  lei  |
 | `AFM` Affirmative                 |  ra   |  re   |  ri   |   -   |   -   |  ro   |   -   |   -   |  ru   |   -   |   -   |
 | `RPT` Reportative                 |  ja   |  je   |  ji   |   -   |   -   |  jo   |   -   |   -   |  ju   |   -   |   -   |
 | `INF` Inferential                 |  sa   |  se   |  si   |  sai  |  sei  |  so   |   -   |   -   |  su   |   -   |   -   |

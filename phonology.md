@@ -29,6 +29,8 @@ Word-initial nasals that do not form valid [syllable onsets](#syllable-onset) ar
 
 Unvoiced plosives may optionally be aspirated when followed immediately by a vowel.
 
+The letter sequences **ts**, **dz**, **tc**, and **dj** may be pronounced as affricates.
+
 ## Vowels
 
 Front and central vowels are unrounded; back vowels are rounded.

@@ -1,6 +1,6 @@
 # Syntax
 
-[TODO] This is really out-of-date.
+[TODO] This is somewhat out-of-date and needs to be cleaned up.
 
 ## Parts of Speech
 
@@ -24,25 +24,26 @@ Adjectives (as defined above in [Parts of Speech](#parts-of-speech)) must always
 
 ## Modifiers
 
-Type 1 and type 2 modifiers are syntactically treated the same, except that type 2 modifiers take precedence over type 1. Type 3 modifiers always modify the next type 1 or type 2 modifier, except when they appear at the end of a word with no subsequent type 1 or type 2 modifiers. This is only allowed for detached modifiers with the `ADJn` role; in these situations, the type 3 modifier(s) modify the subsequent formative's case. A type 3 modifier never modifies another type 3 modifier.
+Type 1 and type 2 modifiers are syntactically treated the same, ~~except that type 2 modifiers take precedence over type 1~~. Type 3 modifiers always modify the next type 1 or type 2 modifier, ~~except when they appear at the end of a word with no subsequent type 1 or type 2 modifiers. This is only allowed for detached modifiers with the `ADJn` role; in these situations, the type 3 modifier(s) modify the subsequent formative's case~~. A type 3 modifier never modifies another type 3 modifier. ([TODO] Type 4?)
 
 ## Precedence of Morphological Categories
 
 Morphological categories are conceptually applied in the following order:
 
 1. Root + PSD
-2. Type 2 modifiers attached to a word (left-to-right) *
-3. Type 1 modifiers attached to a word (left-to-right) *
+2. ~~Type 2 modifiers attached to a word (left-to-right) *~~
+3. ~~Type 1 modifiers attached to a word (left-to-right) *~~
+4. Modifiers attached to a word
 4. Perspective
-5. Type 2 detached modifiers preceding a word (left-to-right) *
-6. Type 1 detached modifiers preceding a word (left-to-right) *
+5. ~~Type 2 detached modifiers preceding a word (left-to-right) *~~
+6. ~~Type 1 detached modifiers preceding a word (left-to-right) *~~
 7. Validation
 8. Essence
 9. Context
-10. Type 2 detached modifiers following a word (left-to-right) *
-11. Type 1 detached modifiers following a word (left-to-right) *
+10. ~~Type 2 detached modifiers following a word (left-to-right) *~~
+11. ~~Type 1 detached modifiers following a word (left-to-right) *~~
 10. Illocution
 11. Case
-12. Type 3 detached modifiers preceding a word (and not followed by a type 1 or type 2 modifier)
+12. ~~Type 3 detached modifiers preceding a word (and not followed by a type 1 or type 2 modifier)~~
 
-\* Including any immediately preceding type 3 modifiers
+~~\* Including any immediately preceding type 3 modifiers~~

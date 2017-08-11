@@ -1,0 +1,217 @@
+/*
+ * This is the ultimate source of modifier information. All others are
+ * copied or generated from this file.
+ *
+ * HJSON code folding is broken in Atom so I have to use #region tags. Sorry.
+ *
+
+// FORMAT
+see SIZ for an example
+
+*/
+
+{
+
+  #region
+  colors: {
+    bri: {
+      g: degree of brightness
+      c: nts
+      d: [
+        pitch-black
+        very dark
+        dark
+        a bit dark
+        normal brightness
+        a bit bright
+        bright
+        very bright
+        blindingly bright
+      ]
+    }
+    sat: {
+      g: degree of color intensity/saturation
+      c: mdj
+      d: [
+        grey
+        unsaturated/greyish
+        somewhat greyish
+        a bit dull
+        normal color
+        a bit vibrant
+        somewhat vibrant
+        vibrant/fluorescent
+        extremely vibrant/fluorescent
+      ]
+    }
+    trn: {
+      g: degree of opaqueness/transparency
+      c: mfr
+      d: [
+        invisible
+        nearly invisible
+        transparent
+        mostly transparent
+        somewhat transparent
+        cloudy
+        translucent
+        nearly opaque
+        opaque
+      ]
+    }
+    # [TODO]
+    # @color: [
+    #   @-ish grey
+    #   unsaturated/greyish @
+    #   somewhat greyish @
+    #   slightly dull @
+    #   @
+    #   slightly vibrant @
+    #   somewhat vibrant @
+    #   vibrant/fluorescent @
+    #   extremely vibrant/fluorescent @
+    # ]
+
+  }
+  #endregion
+
+  #region
+  demonstrative: {
+
+    #region DEF - Degree of Definiteness
+    def: {
+      g: degree of definiteness
+      c: ktr
+      d: [
+        any random X; in any manner
+        almost any X; in any number of ways
+        some X or other; in some way or other
+        some certain X; in some certain way [identity unknown]
+        this X or that [identity almost known -- choices limited]
+        a certain/particular X; in a particular way [identity ascertainable]
+        presumably/apparently this/that X; apparently in this way [tentatively identified]
+        this/that/said X; in said manner; in that way [identity known]
+        at hand; under discussion; in this manner [identified in present context]
+      ]
+      src: def
+    }
+    #endregion
+    #region DSR - Degree of Discretion
+    dsr: {
+      g: degree of discretion
+      c: ntm
+      d: [
+        announced/advertised/heralded; with full public disclosure
+        open and well-known; with public knowledge
+        public/open; for all to see publicly/openly
+        shown/open/available by request
+        semi-public(ly)/exclusive(ly)
+        personal(ly)
+        private(ly)
+        secret(ly)
+        confidential(ly)/classified
+      ]
+      src: dsr
+    }
+    #endregion
+    #region INL - Degree of Inclusion
+    inl: {
+      g: degree of inclusion
+      c: nsp
+      d: [
+        not any/one X; none of X; in no such way
+        hardly/barely any X; in hardly any such way
+        some few X; a few certain Xs; in a few certain ways
+        some of X; certain Xs; in certain ways
+        several/various Xs; in several different ways
+        a significant portion of X; a fair number of X; in a fair number of ways
+        most X; in most ways
+        almost every X; in almost every way
+        each/every X; in each/every way
+      ]
+      src: inl
+    }
+    #endregion
+    #region EXT - Exactness of Identity / Identity as a Referent or Standard
+    ext: {
+      g: exactness of identity / identity as a referent or standard
+      c: rmc
+      d: [
+        nothing like X; in no way similar to X
+        somewhat like X; somewhat so
+        nearly or almost that X; nearly or almost so
+        just about X; X for all intents and purposes
+        this kind/type/sort of X
+        such an X; in such a manner
+        clear (case of) X; clearly/certainly/indeed
+        just like that; thus(ly)
+        the exact X; the very one; exactly thus/so
+      ]
+      src: ext
+    }
+    #endregion
+    #region FAM - Degree of Familiarity
+    fam: {
+
+    }
+    #endregion
+  }
+
+  #region QUALITATIVE MODIFIERS
+  qualitative: {
+
+    #region SIZ - Degree of Size
+    siz: {
+      g: "degree of size" # generic
+      c: "xr" # C modifier
+      # cv: "xre" # CV root (assumed to be `c` + 'e')
+      d: [ # degrees
+        too small
+        very small; tiny
+        small
+        a little on the small size
+        medium-sized
+        a little on the large size
+        large
+        very large; enormous
+        too large
+      ]
+      # s: { # additional stems (not including degrees; blank if omitted)
+      # }
+      src: siz
+    }
+    #endregion
+    #region
+
+    #endregion
+
+  }
+  #endregion
+
+  #region MISCELLANEOUS MODIFIERS
+  miscellaneous: {
+
+    #region CAR - Carrier
+    car: {
+      g: carrier
+      c: b
+      d: [
+        tangible inanimate thing
+        inanimate thing
+        intangible thing
+        person
+        animate being
+        non-person animate being
+        place name
+        abstract concept
+        essence (Abstract perspective)
+      ]
+      n: '''
+        This modifier cannot be used in type 3. ([TODO] There should be a mechanism for using the carrier word as a modifier, but it will not be using `CAR`.) This modifier must appear at the end of a word. The last word of the carried segment is given rising tone. ([TODO] Handle quoting tonal languages?) This modifier is used in type 2 if quoting a proper noun; otherwise type 1 is used.
+      '''
+    }
+    #endregion
+
+  }
+
+}

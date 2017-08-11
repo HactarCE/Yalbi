@@ -9,7 +9,7 @@ Each "root" in Yalbi consists of a vowel and a consonant, and has a number of co
 
 This is somewhat similar to Ithkuil's pattern/stem/designation system, but is more flexible and eliminates the need for a stem-specific derivational suffix (SSD).
 
-The following consonant clusters may not be used alone in roots: **m**
+The following consonant clusters may not be used in roots (without other consonants): **h**, **m**, **n**, **p**, **t**, **k**, **sp**, **st**, **sk**, **x**.
 
 All of Yalbi's roots are listed below.
 

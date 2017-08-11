@@ -20,7 +20,21 @@ There are nine degrees, which generally form spectrum from least to greatest. So
 | Type 3 |    iu    |    ia    |    io    |    ie    |    oa    |    ue    |    uo    |    ua    |    ui    |
 | Type 2 |   aiu    |   aia    |   aio    |   aie    |    oe    |   aue    |   auo    |   aua    |   aui    |
 
-A modifier can be used as a root
+Almost all modifiers can be used as roots by adding **e**. Stem indicates degree, according to the following table. **l** can be used to mean "a degree of X."
+
+| Degree | Stem |
+|--------|:----:|
+| 1      |  f   |
+| 2      |  s   |
+| 3      |  c   |
+| 4      |  m   |
+| 5      |  r   |
+| 6      |  v   |
+| 7      |  b   |
+| 8      |  d   |
+| 9      |  g   |
+
+For example, **axred** means "[something] very large" and **laxred** means "to be [something] very large."
 
 All of Yalbi's modifiers are listed below.
 

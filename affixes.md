@@ -1,12 +1,14 @@
 # Affixes
 
+[TODO] Reorder and fix links (CVf is broken)
+
 * [Cd - Derived root](#cr-and-cs)
 * [Cp - Carrier type](#cp)
 * [Cs - Stem](#cvr-and-cs)
 * [CVc - Case](#cvc)
-* [CVf - Case-frame + Function + Perspective](#vf)
+* [CVf - Case-frame + Perspective](#vf)
 * [CVm - Modifier](#cvm)
-* [CVn - Illocution + Validation + Function + Perspective](#cvn)
+* [CVn - Illocution + Validation + Perspective](#cvn)
 * [CVr - Root](#cvr-and-cs)
 * [Ve - Extension + Perspective + Essence](#ve)
 * [Vi - Modifier role](#vi)

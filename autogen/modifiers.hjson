@@ -12,8 +12,9 @@ see SIZ for an example
 
 {
 
-  #region
+  #region COLORS
   colors: {
+    #region BRI - DEGREE OF BRIGHTNESS
     bri: {
       g: degree of brightness
       c: nts
@@ -29,6 +30,8 @@ see SIZ for an example
         blindingly bright
       ]
     }
+    #endregion
+    #region SAT - DEGREE OF COLOR INTENSITY/SATURATION
     sat: {
       g: degree of color intensity/saturation
       c: mdj
@@ -44,6 +47,8 @@ see SIZ for an example
         extremely vibrant/fluorescent
       ]
     }
+    #endregion
+    #region TRN - DEGREE OF OPAQUENESS/TRANSPARENCY
     trn: {
       g: degree of opaqueness/transparency
       c: mfr
@@ -59,7 +64,9 @@ see SIZ for an example
         opaque
       ]
     }
-    # [TODO]
+    #endregion
+    #region @COLOR - COLOR TEMPLATE
+    # [TODO] Actually implement this
     # @color: [
     #   @-ish grey
     #   unsaturated/greyish @
@@ -71,11 +78,12 @@ see SIZ for an example
     #   vibrant/fluorescent @
     #   extremely vibrant/fluorescent @
     # ]
+    #endregion
 
   }
   #endregion
 
-  #region
+  #region DEMONSTRATIVE
   demonstrative: {
 
     #region DEF - Degree of Definiteness
@@ -132,7 +140,7 @@ see SIZ for an example
       src: inl
     }
     #endregion
-    #region EXT - Exactness of Identity / Identity as a Referent or Standard
+    #region EXT - Exactness of Identity
     ext: {
       g: exactness of identity / identity as a referent or standard
       c: rmc
@@ -152,12 +160,14 @@ see SIZ for an example
     #endregion
     #region FAM - Degree of Familiarity
     fam: {
-
+      # [TODO]
     }
     #endregion
-  }
 
-  #region QUALITATIVE MODIFIERS
+  }
+  #endregion
+
+  #region QUALITATIVE
   qualitative: {
 
     #region SIZ - Degree of Size
@@ -181,14 +191,11 @@ see SIZ for an example
       src: siz
     }
     #endregion
-    #region
-
-    #endregion
 
   }
   #endregion
 
-  #region MISCELLANEOUS MODIFIERS
+  #region MISCELLANEOUS
   miscellaneous: {
 
     #region CAR - Carrier
@@ -213,5 +220,6 @@ see SIZ for an example
     #endregion
 
   }
+  #endregion
 
 }

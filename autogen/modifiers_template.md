@@ -5,7 +5,7 @@
 ~~ If you're looking to edit `modifiers.md`, you're in the right place. Any changes made here will be reflected in `modifiers.md` next time the lexicon is recompiled.
 ~~ Lines beginning with two tildes will not appear in `modifiers.md`.
 ~~OUTFILE ../modifiers.md
-~~AUTOGEN_WARNING `modifiers_template.md` or `modifiers.hjson`
+~~AUTOGEN_WARNING [`modifiers_template.md`](autogen/modifiers_template.md) or [`modifiers.hjson`](autogen/modifiers.hjson)
 
 Modifiers are the adjectives, adverbs, and conjunctions of Yalbi. They are essentially the same as Ithkuil's derivational suffixes, but play an even heavier role than in Ithkuil.
 

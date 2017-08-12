@@ -102,7 +102,6 @@ Like Ithkuil, Yalbi has nearly a hundred cases. Each case is declined somewhat l
 |    `PLM`     | Prolimitive    | Temporal limit ("by X"/"**by evening**)                                     |
 |    `LIM`     | Limitive       | Event culminating in anticipatory context ("in time for X")                 |
 
-
 ### Spatial cases
 
 | Abbreviation | Name        | Use                                                                   |

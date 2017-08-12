@@ -88,8 +88,8 @@ Like Ithkuil, Yalbi has nearly a hundred cases. Each case is declined somewhat l
 |:------------:|----------------|-----------------------------------------------------------------------------|
 |    `SML`     | Simultaneitive | Same time                                                                   |
 |    `ASS`     | Assessive      | "per X"/"for each X"                                                        |
-|    `CNR`     | Concursive     | Beginning to end ("during X")                                               |
-|    `ACS`     | Accessive      | Instant in time ("upon **impact**"                                          |
+|    `CNR`     | Concursive     | Temporal locative ("happened **yesterday**")                                |
+|    `ACS`     | Accessive      | Instant in time ("upon **impact**")                                         |
 |    `DFF`     | Diffusive      | Fuzzy time period, but one event ("over the course of X")                   |
 |    `PER`     | Periodic       | Multiple events scattered throughout                                        |
 |    `PRO`     | Prolapsive     | Event takes entire duration ("through X")                                   |

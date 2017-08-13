@@ -228,4 +228,23 @@ category: {
   }
   #endregion
 
+
+  #region MISCELLANEOUS
+
+  miscellaneous: {
+
+    pa: {
+      d: pronoun
+      s: {}
+      n:
+        '''
+        See [Pronouns](pronouns.md).
+        '''
+    }
+
+  }
+
+  #endregion
+
+
 }

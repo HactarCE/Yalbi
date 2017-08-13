@@ -30,6 +30,8 @@ All of Yalbi's roots are listed below.
   * [-BKI- 'RAY'](#-bki--ray)
 * [Colors](#colors)
   * [-NKA- 'COLOR'](#-nka--color)
+* [Miscellaneous](#miscellaneous)
+  * [-PA- 'PRONOUN'](#-pa--pronoun)
 
 ## Emotional States
 
@@ -59,7 +61,6 @@ This root is based on -B- from [Ithkuil 2011](http://www.ithkuil.net/lexicon.htm
 **k** - article of clothing as accessory  
 **s** - article of clothing as part of uniform  
 **c** - article of clothing as part of costume
-
 This root is based on -GV- from [Ithkuil 2011](http://www.ithkuil.net/lexicon.htm).
 
 **r** can be combined with a fricative or plosive to mean _to wear X as Y_. For example, _rt_ means _to wear clothing as distinguishing marker_. **s** or **c** can be appended as well; for example, _rkc_ means _to wear as an accessory as part of a costume_.
@@ -67,23 +68,19 @@ This root is based on -GV- from [Ithkuil 2011](http://www.ithkuil.net/lexicon.ht
 ##### -BU- 'COAT/JACKET'
 
 This root is patterned after the root [-GVA-](#---article-of-clothing).
-
 This root is based on -BB- from [Ithkuil 2011](http://www.ithkuil.net/lexicon.htm).
 
 ##### -BDA- 'NECKTIE'
 
 This root is patterned after the root [-GVA-](#---article-of-clothing).
-
 This root is based on -BD- from [Ithkuil 2011](http://www.ithkuil.net/lexicon.htm).
 
 ##### -BDO- 'BOWTIE'
 
 This root is patterned after the root [-GVA-](#---article-of-clothing).
-
 ##### -BDI- 'CRAVAT'
 
 This root is patterned after the root [-GVA-](#---article-of-clothing).
-
 This root is based on -BD- from [Ithkuil 2011](http://www.ithkuil.net/lexicon.htm).
 
 ## Animal Life
@@ -98,55 +95,46 @@ This root is based on -BD- from [Ithkuil 2011](http://www.ithkuil.net/lexicon.ht
 **p** - animal as food/prey  
 **t** - animal as resource  
 **k** - animal as derived resource or processed product
-
 A nasal or plosive can be combined with **s** or **c**. For example, _nc_ means _bred/domesticated male_.
 
 ##### -VRA- 'AQUATIC ANIMAL'
 
 This root is patterned after the root [-RNA-](#---animal).
-
 This root is based on -VR- from [Ithkuil 2011](http://www.ithkuil.net/lexicon.htm).
 
 ##### -BDU- 'OCTOPUS'
 
 This root is patterned after the root [-RNA-](#---animal).
-
 This root is based on -BDH- from [Ithkuil 2011](http://www.ithkuil.net/lexicon.htm).
 
 ##### -BGA- 'SQUID'
 
 This root is patterned after the root [-RNA-](#---animal).
-
 This root is based on -BG- from [Ithkuil 2011](http://www.ithkuil.net/lexicon.htm).
 
 ##### -BKO- 'SHARK'
 
 This root is patterned after the root [-RNA-](#---animal).
-
 This root is based on -BKʰ- from [Ithkuil 2011](http://www.ithkuil.net/lexicon.htm).
 
 ##### -BJA- 'EEL'
 
 This root is patterned after the root [-RNA-](#---animal).
-
 This root is based on -BJ- from [Ithkuil 2011](http://www.ithkuil.net/lexicon.htm).
 
 ##### -BKA- 'LAMPREY'
 
 This root is patterned after the root [-RNA-](#---animal).
-
 This root is based on -BK- from [Ithkuil 2011](http://www.ithkuil.net/lexicon.htm).
 
 ##### -BKU- 'PIKE'
 
 This root is patterned after the root [-RNA-](#---animal).
-
 This root is based on -BKW- from [Ithkuil 2011](http://www.ithkuil.net/lexicon.htm).
 
 ##### -BKI- 'RAY'
 
 This root is patterned after the root [-RNA-](#---animal).
-
 This root is based on -BK'- from [Ithkuil 2011](http://www.ithkuil.net/lexicon.htm).
 
 ## Colors
@@ -160,3 +148,9 @@ This root is based on -BK'- from [Ithkuil 2011](http://www.ithkuil.net/lexicon.h
 **k** - ['color defined by RGB (red, green, blue)', 'RGB color']  
 **ks** - ['color defined by ARGB (opacity/alpha, red, green, blue)', 'ARGB color']  
 **p** - ['color defined by CMYK (cyan, magenta, yellow, black)', 'CMYK color']
+
+## Miscellaneous
+
+##### -PA- 'PRONOUN'
+
+See [Pronouns](pronouns.md).

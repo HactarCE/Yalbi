@@ -8,5 +8,27 @@ After trying to reform [Ithkuil](http://www.ithkuil.net/) and discovering severa
 * [Affixes](affixes.md)
 * [Roots](roots.md)
 * [Modifiers](modifiers.md)
+* [Pronouns](pronouns.md)
+* [Abbreviations](abbreviations.md) (not at all updated)
 
-[TODO] Make a more welcoming README, a learning guide, and a "changelog" for people who already know Ithkuil
+## To-Do List
+
+Short-term stuff:
+
+- [ ] Expand lexicon
+- [ ] Update abbreviations page
+- [ ] How to ask questions?
+- [ ] More welcoming README
+- [ ] Explain stuff better, in general
+
+Medium-term stuff:
+
+- [ ] Glosser + Discord bot
+- [ ] Mathematical sub-langauge
+- [ ] Guide for beginners
+- [ ] Translate stuff!
+
+Long-term stuff:
+
+- [ ] Searchable lexicon
+- [ ] Dictionary of derived words

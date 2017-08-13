@@ -54,7 +54,7 @@ def format_roots(source):
                             if not stem.startswith('_'):
                                 stems += '\n**{}** - {}  '.format(stem, meaning)
                         if stems:
-                            stems = stems[1:-2] + '\n'
+                            stems = stems[1:-2] + '\n\n'
                     else:
                         if data['s'] == root:
                             stems = ''
@@ -74,7 +74,7 @@ def format_roots(source):
                             except KeyError:
                                 print("WARNING: unable to find pattern for '{}' in '{}' roots list".format(root, category_name))
                                 continue
-                    output = "##### -{}- '{}'\n\n{}\n".format(root.upper(), definition.upper(), stems)
+                    output = "##### -{}- '{}'\n\n{}".format(root.upper(), definition.upper(), stems)
                     if 'src' in data:
                         output += "This root is based on -{}- from [Ithkuil 2011](http://www.ithkuil.net/lexicon.htm).\n\n".format(data['src'].upper())
                     if data['s'] == root and 'n' in roots['@' + root]:

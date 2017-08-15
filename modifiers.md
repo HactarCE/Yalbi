@@ -43,6 +43,8 @@ All of Yalbi's modifiers are listed below.
   * [`EXT` Exactness of Identity / Identity as a Referent or Standard](#ext-exactness-of-identity--identity-as-a-referent-or-standard)
 * [Qualitative](#qualitative)
   * [`SIZ` Degree of Size](#siz-degree-of-size)
+  * [`MGC` Degree of Magicalness](#mgc-degree-of-magicalness)
+  * [`CFD` Degree of Confidence](#cfd-degree-of-confidence)
 * [Miscellaneous](#miscellaneous)
   * [`CAR` Carrier](#car-carrier)
 
@@ -170,7 +172,7 @@ This modifier is based on the `EXT` suffix from [Ithkuil 2011](http://www.ithkui
 Cm value: **xr**  
 CVr value: **xre**
 
-1. too small
+1. microscopic
 2. very small; tiny
 3. small
 4. a little on the small size
@@ -178,9 +180,41 @@ CVr value: **xre**
 6. a little on the large size
 7. large
 8. very large; enormous
-9. too large
+9. gargantuan
 
 This modifier is based on the `SIZ` suffix from [Ithkuil 2011](http://www.ithkuil.net/07_suffixes.htm).
+
+### `MGC` Degree of Magicalness
+
+Cm value: **ntck**  
+CVr value: **ntcke**
+
+1. not at all magical
+2. slightly magical
+3. somewhat magical
+4. not very magical
+5. moderately magical
+6. rather magical
+7. magical
+8. very magical
+9. magic-infused
+
+### `CFD` Degree of Confidence
+
+Cm value: **ltf**  
+CVr value: **ltfe**
+
+1. extremely meek/submissive/obedient/docile
+2. very meek/submissive/obedient/docile
+3. meek/submissive/obedient/docile
+4. somewhat meek/submissive/obedient/docile
+5. properly humble
+6. somewhat confident/strong/definite/authoritative
+7. confident/strong/definite/authoritative
+8. very confident/strong/definite/authoritative
+9. extremely confident/strong/definite/authoritative
+
+This modifier is based on the `CFD` suffix from [Ithkuil 2011](http://www.ithkuil.net/07_suffixes.htm).
 
 ## Miscellaneous
 

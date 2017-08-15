@@ -257,6 +257,53 @@ category: {
         '''
     }
 
+    ri: {
+      d: possession/ownership
+      s: {
+        l: [ "to physically have/possess (temporary/circumstantial and alienable)" "physical possession (alienable)" "to physically have (alienable)" ]
+        r: [ "to have/possess (circumstantial and quasi-inalienable)" "possession (quasi-inalienable)" "to have (quasi-inalienable)" ]
+        j: [ "to intrinsically possess (intrinsic and inalienable)" "possession (intrinsic)" "to have (intrinsic)" ]
+        m: [ "to own and physically have (alienable but quasi-permanent)" "ownership and physical possession (alienable)" "to own and have (alienable)" ]
+        n: [ "to own (alienable but quasi-permanent)" "ownership (alienable)" "to own (alienable)" ]
+        v: [ "to own (quasi-inalienable)" "ownership (quasi-inalienable)" "to own (quasi-inalienable)" ]
+      }
+    }
+
+    ktu: {
+      d: rock/soil/ground
+      s: {
+        l: [ "stone" ]
+        p: [ "sand" ]
+        t: [ "clay" ]
+        k: [ "gravel" ]
+        s: [ "stone (substance)" ]
+        ps: [ "sand (substance)" ]
+        ts: [ "clay (substance)" ]
+        ks: [ "gravel (substance)" ]
+        c: [ "stone (component of other material)" ]
+        pc: [ "sand (component of other material)" ]
+        tc: [ "clay (component of other material)" ]
+        kc: [ "gravel (component of other material)" ]
+      }
+      n:
+        '''
+        Add **s** for "as substance" and **c** for "as component of ground or other material." (**s** and **c** are used instead of **ls** and **lc** respectively.)
+        '''
+      src: kt
+    }
+
+    zri: {
+      d: teach/learn
+      s: {
+        l: [ "to teach" "teaching" "to teach" ]
+        m: [ "to teach by explaining" "explanation" "to explain" ]
+        n: [ "to teach by demonstration" "demonstration" "to demonstrate" ]
+        r: [ "to learn" "learning" "to learn" ]
+        rm: [ "to learn from explanation" "learning from explanation" "to learn from explanation" ]
+        rn: [ "to learn from demonstration" "learning from demonstration" "to learn from demonstration" ]
+      }
+    }
+
   }
 
   #endregion

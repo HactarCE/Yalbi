@@ -33,6 +33,9 @@ All of Yalbi's roots are listed below.
 * [Miscellaneous](#miscellaneous)
   * [-PA- 'PRONOUN'](#-pa--pronoun)
   * [-XPA- 'VISION/SIGHT'](#-xpa--visionsight)
+  * [-RI- 'POSSESSION/OWNERSHIP'](#-ri--possessionownership)
+  * [-KTU- 'ROCK/SOIL/GROUND'](#-ktu--rocksoilground)
+  * [-ZRI- 'TEACH/LEARN'](#-zri--teachlearn)
 
 ## Emotional States
 
@@ -164,3 +167,40 @@ See [Pronouns](pronouns.md).
 **n** - ['to create/render an image', 'process of rendering', 'to render']
 
 [TODO] Use some suffix meaning "organ for X" to get "eye" or "machine for X" to get "optical instrument"
+
+##### -RI- 'POSSESSION/OWNERSHIP'
+
+**l** - ['to physically have/possess (temporary/circumstantial and alienable)', 'physical possession (alienable)', 'to physically have (alienable)']  
+**r** - ['to have/possess (circumstantial and quasi-inalienable)', 'possession (quasi-inalienable)', 'to have (quasi-inalienable)']  
+**j** - ['to intrinsically possess (intrinsic and inalienable)', 'possession (intrinsic)', 'to have (intrinsic)']  
+**m** - ['to own and physically have (alienable but quasi-permanent)', 'ownership and physical possession (alienable)', 'to own and have (alienable)']  
+**n** - ['to own (alienable but quasi-permanent)', 'ownership (alienable)', 'to own (alienable)']  
+**v** - ['to own (quasi-inalienable)', 'ownership (quasi-inalienable)', 'to own (quasi-inalienable)']
+
+##### -KTU- 'ROCK/SOIL/GROUND'
+
+**l** - ['stone']  
+**p** - ['sand']  
+**t** - ['clay']  
+**k** - ['gravel']  
+**s** - ['stone (substance)']  
+**ps** - ['sand (substance)']  
+**ts** - ['clay (substance)']  
+**ks** - ['gravel (substance)']  
+**c** - ['stone (component of other material)']  
+**pc** - ['sand (component of other material)']  
+**tc** - ['clay (component of other material)']  
+**kc** - ['gravel (component of other material)']
+
+This root is based on -KT- from [Ithkuil 2011](http://www.ithkuil.net/lexicon.htm).
+
+Add **s** for "as substance" and **c** for "as component of ground or other material." (**s** and **c** are used instead of **ls** and **lc** respectively.)
+
+##### -ZRI- 'TEACH/LEARN'
+
+**l** - ['to teach', 'teaching', 'to teach']  
+**m** - ['to teach by explaining', 'explanation', 'to explain']  
+**n** - ['to teach by demonstration', 'demonstration', 'to demonstrate']  
+**r** - ['to learn', 'learning', 'to learn']  
+**rm** - ['to learn from explanation', 'learning from explanation', 'to learn from explanation']  
+**rn** - ['to learn from demonstration', 'learning from demonstration', 'to learn from demonstration']

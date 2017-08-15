@@ -178,7 +178,7 @@ see SIZ for an example
       c: "xr" # C modifier
       # cv: "xre" # CV root (assumed to be `c` + 'e')
       d: [ # degrees
-        too small
+        microscopic
         very small; tiny
         small
         a little on the small size
@@ -186,11 +186,48 @@ see SIZ for an example
         a little on the large size
         large
         very large; enormous
-        too large
+        gargantuan
       ]
       # s: { # additional stems (not including degrees; blank if omitted)
       # }
       src: siz
+    }
+    #endregion
+
+    #region MGC - Degree of Magic
+    mgc: {
+      g: degree of magicalness
+      c: ntck
+      d: [
+        not at all magical
+        slightly magical
+        somewhat magical
+        not very magical
+        moderately magical
+        rather magical
+        magical
+        very magical
+        magic-infused
+      ]
+    }
+    #endregion
+
+    #region CFD - Degree of Confidence
+    cfd: {
+      g: degree of confidence
+      c: ltf
+      d: [
+        extremely meek/submissive/obedient/docile
+        very meek/submissive/obedient/docile
+        meek/submissive/obedient/docile
+        somewhat meek/submissive/obedient/docile
+        properly humble
+        somewhat confident/strong/definite/authoritative
+        confident/strong/definite/authoritative
+        very confident/strong/definite/authoritative
+        extremely confident/strong/definite/authoritative
+      ]
+      src: cfd
     }
     #endregion
 

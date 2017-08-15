@@ -11,7 +11,7 @@ Nouns and verbs, while grammatically treated very differently, are both formativ
 
 |                                                       1                                                       |              2               |              3              |             4              |                                                         5                                                          |
 |:-------------------------------------------------------------------------------------------------------------:|:----------------------------:|:---------------------------:|:--------------------------:|:------------------------------------------------------------------------------------------------------------------:|
-|                          [ [CVn](affixes.md#cvn) / [CVc](affixes.md#vc-and-cvc) … ]                           | [CVr](affixes.md#cvr-and-cs) | ( [CVm](affixes.md#cvm) … ) | [Cs](affixes.md#cr-and-cs) |                                              ( [Ve](affixes.md#ve) )                                               |
+|                              [ [CVn](affixes.md#cvn) / [CVc](affixes.md#cvc) … ]                              | [CVr](affixes.md#cvr-and-cs) | ( [CVm](affixes.md#cvm) … ) | [Cs](affixes.md#cr-and-cs) |                                              ( [Ve](affixes.md#ve) )                                               |
 | [Illocution](morphology.md#illocution) + [Validation](morphology.md#validation) OR [Case](morphology.md#case) |       [Root](roots.md)       |  [Modifiers](modifiers.md)  |      [Stem](roots.md)      | [Extension](morphology.md#extension) + [Perspective](morphology.md#perspective) + [Essence](morphology.md#essence) |
 
 Affixes within square brackets are required.

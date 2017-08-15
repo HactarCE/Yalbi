@@ -262,10 +262,34 @@ see SIZ for an example
   }
   #endregion
 
-  #region TEMPORAL (TENSE/ASPECT)
+  #region TEMPORAL
   temporal: {
 
-    #region TEMPORAL 1
+    #region TEMPORAL POSITION RELATIVE TO PRESENT CONTEXT
+    tpp: {
+      g: temporal position relative to present context
+      c: kn
+      d: [
+        in the remote past; once upon a time
+        past/former/previous; a long time ago
+        recent
+        X just happened
+        present/current
+        imminent
+        forthcoming; soon to arrive
+        future; eventual
+        in the far future
+      ]
+    }
+    #endregion
+
+  }
+  #endregion
+
+  #region ASPECTUAL (TENSE/ASPECT)
+  aspectual: {
+
+    #region ASPECTS 1
     TEM1: {
       g: temporal aspects 1
       c: mv

@@ -48,6 +48,8 @@ All of Yalbi's modifiers are listed below.
 * [Miscellaneous](#miscellaneous)
   * [`CAR` Carrier](#car-carrier)
 * [Temporal](#temporal)
+  * [`TPP` Temporal Position Relative to Present Context](#tpp-temporal-position-relative-to-present-context)
+* [Aspectual](#aspectual)
   * [`TEM1` Temporal Aspects 1](#tem1-temporal-aspects-1)
 
 ## Colors
@@ -238,6 +240,23 @@ CVr value: **be**
 This modifier cannot be used in type 3. ([TODO] There should be a mechanism for using the carrier word as a modifier, but it will not be using `CAR`.) This modifier must appear at the end of a word. The last word of the carried segment is given rising tone. ([TODO] Handle quoting tonal languages?) This modifier is used in type 2 if quoting a proper noun; otherwise type 1 is used.
 
 ## Temporal
+
+### `TPP` Temporal Position Relative to Present Context
+
+Cm value: **kn**  
+CVr value: **kne**
+
+1. in the remote past; once upon a time
+2. past/former/previous; a long time ago
+3. recent
+4. X just happened
+5. present/current
+6. imminent
+7. forthcoming; soon to arrive
+8. future; eventual
+9. in the far future
+
+## Aspectual
 
 ### `TEM1` Temporal Aspects 1
 

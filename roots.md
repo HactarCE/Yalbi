@@ -36,6 +36,7 @@ All of Yalbi's roots are listed below.
   * [-RI- 'POSSESSION/OWNERSHIP'](#-ri--possessionownership)
   * [-KTU- 'ROCK/SOIL/GROUND'](#-ktu--rocksoilground)
   * [-ZRI- 'TEACH/LEARN'](#-zri--teachlearn)
+  * [-DZA- 'DAY/NIGHT'](#-dza--daynight)
 
 ## Emotional States
 
@@ -204,3 +205,11 @@ Add **s** for "as substance" and **c** for "as component of ground or other mate
 **r** - ['to learn', 'learning', 'to learn']  
 **rm** - ['to learn from explanation', 'learning from explanation', 'to learn from explanation']  
 **rn** - ['to learn from demonstration', 'learning from demonstration', 'to learn from demonstration']
+
+##### -DZA- 'DAY/NIGHT'
+
+**l** - ['day (24-hour period)']
+
+This root is based on -ż- from [Ithkuil 2011](http://www.ithkuil.net/lexicon.htm).
+
+This is nowhere near done right now

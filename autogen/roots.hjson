@@ -304,6 +304,18 @@ category: {
       }
     }
 
+    dza: {
+      d: day/night
+      s: {
+        l: [ "day (24-hour period)" ]
+      }
+      src: ż
+      n:
+        '''
+        This is nowhere near done right now
+        '''
+    }
+
   }
 
   #endregion

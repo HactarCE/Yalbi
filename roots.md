@@ -32,18 +32,19 @@ All of Yalbi's roots are listed below.
   * [-NKA- 'COLOR'](#-nka--color)
 * [Miscellaneous](#miscellaneous)
   * [-PA- 'PRONOUN'](#-pa--pronoun)
+  * [-XPA- 'VISION/SIGHT'](#-xpa--visionsight)
 
 ## Emotional States
 
 ##### -BA- 'WANT/DESIRE/REQUEST'
 
 **l** - ['to unwillfully want/desire', 'want', 'to want']  
-**m** - ['to consciously desire based on need', 'desire (need)']  
-**n** - ['to consciously desire based on goal', 'desire (goal)']  
-**p** - ['to need; need/lack/necessity', 'need']  
-**t** - ['to aspire; aspiration/goal', 'aspire']  
-**k** - ['to hope/wish', 'hope']  
-**x** - ['to request', 'request']
+**m** - ['to consciously desire based on need', 'desire (need)', 'to desire (need)']  
+**n** - ['to consciously desire based on goal', 'desire (goal)', 'to desire (goal)']  
+**p** - ['to need; need/lack/necessity', 'need', 'to need']  
+**t** - ['to aspire; aspiration/goal', 'aspire', 'to aspire']  
+**k** - ['to hope/wish', 'hope', 'to hope']  
+**x** - ['to request', 'request', 'to request']
 
 This root is based on -B- from [Ithkuil 2011](http://www.ithkuil.net/lexicon.htm).
 
@@ -154,3 +155,12 @@ This root is based on -BK'- from [Ithkuil 2011](http://www.ithkuil.net/lexicon.h
 ##### -PA- 'PRONOUN'
 
 See [Pronouns](pronouns.md).
+
+##### -XPA- 'VISION/SIGHT'
+
+**l** - ['to see/sight; a sighting', 'sighting', 'to see']  
+**r** - ['to visualize', 'visualization', 'to visualize']  
+**m** - ['to observe; to visually examine', 'observation', 'to observe']  
+**n** - ['to create/render an image', 'process of rendering', 'to render']
+
+[TODO] Use some suffix meaning "organ for X" to get "eye" or "machine for X" to get "optical instrument"

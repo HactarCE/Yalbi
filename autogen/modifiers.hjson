@@ -262,4 +262,28 @@ see SIZ for an example
   }
   #endregion
 
+  #region TEMPORAL (TENSE/ASPECT)
+  temporal: {
+
+    #region TEMPORAL 1
+    TEM1: {
+      g: temporal aspects 1
+      c: mv
+      d: [
+        used to X (no longer does)
+        have already Xed
+        simple past tense
+        just recently Xed
+        present tense
+        on the verge of Xing; about to X
+        simple future tense
+        future perfect ("will have Xed")
+        will continue to X
+      ]
+    }
+    #endregion
+
+  }
+  #endregion
+
 }

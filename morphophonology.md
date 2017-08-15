@@ -37,3 +37,7 @@ If CVc is present, the formative is grammatically functioning as a noun.
 | [Role](affixes.md#vi) | [Modifier](#modifiers.md) |
 
 * The second syllable is stressed
+
+## Pronouns
+
+See [Pronouns](pronouns.md)

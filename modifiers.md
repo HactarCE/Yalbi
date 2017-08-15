@@ -47,6 +47,8 @@ All of Yalbi's modifiers are listed below.
   * [`CFD` Degree of Confidence](#cfd-degree-of-confidence)
 * [Miscellaneous](#miscellaneous)
   * [`CAR` Carrier](#car-carrier)
+* [Temporal](#temporal)
+  * [`TEM1` Temporal Aspects 1](#tem1-temporal-aspects-1)
 
 ## Colors
 
@@ -234,3 +236,20 @@ CVr value: **be**
 9. essence (Abstract perspective)
 
 This modifier cannot be used in type 3. ([TODO] There should be a mechanism for using the carrier word as a modifier, but it will not be using `CAR`.) This modifier must appear at the end of a word. The last word of the carried segment is given rising tone. ([TODO] Handle quoting tonal languages?) This modifier is used in type 2 if quoting a proper noun; otherwise type 1 is used.
+
+## Temporal
+
+### `TEM1` Temporal Aspects 1
+
+Cm value: **mv**  
+CVr value: **mve**
+
+1. used to X (no longer does)
+2. have already Xed
+3. simple past tense
+4. just recently Xed
+5. present tense
+6. on the verge of Xing; about to X
+7. simple future tense
+8. future perfect ("will have Xed")
+9. will continue to X

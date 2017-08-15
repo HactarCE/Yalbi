@@ -32,3 +32,5 @@ There are also a few additional forms:
 |  b   | Collective           | Nomic perspective                                              |
 |  d   | Abstract             | Abstract perspective                                           |
 |  g   | Obviative            | 4th person; 3rd person other than the one previously mentioned |
+
+If a pronoun has only one case and no modifiers, CVr can be removed, leaving just CVc + Cs.

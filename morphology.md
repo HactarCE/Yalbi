@@ -213,11 +213,11 @@ Here are some examples of Perspective in use:
 | _to jump_-ASR-**M** _I_-IND                | "I am jumping."                                       |
 | _to jump_-ASR-**U** _I_-IND                | "I have jumped [several disconnected times]."         |
 | _to jump_-ASR-**N** _I_-IND                | "I jump [in general]."                                |
-| _to jump_-ASR-**A** _I_-INDp               | "the idea of me jumping"                              |
+| _to jump_-OBL-**A** _I_-INDp               | "the idea of me jumping"                              |
 | _necktie_-ASR-**M** _it_-OBL               | "It's a necktie."                                     |
 | _necktie_-ASR-**U** _it_-OBL               | "It has been a necktie [several disconnected times]." |
 | _necktie_-ASR-**N** _it_-OBL               | "It is a necktie [in general]."                       |
-| _necktie_-ASR-**A** _it_-OBLp              | "the idea of it being a necktie"                      |
+| _necktie_-OBL-**A** _it_-OBLp              | "the idea of it being a necktie"                      |
 
 ## Essence
 

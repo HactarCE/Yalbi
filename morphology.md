@@ -50,6 +50,7 @@ Like Ithkuil, Yalbi has nearly a hundred cases. Each case is declined somewhat l
 |    `APP`     | Appositive      | [Appositional](http://www.chompchomp.com/terms/appositive.htm)    |
 |    `CRS`     | Contrastive     | "instead of X"/"as opposed to X"                                  |
 |    `CPS`     | Compositive     | Literal/figurative source substance or thing consumed in action   |
+|    `DAT`     | Dative          | Indirect object                                                   |
 |    `PRD`     | Predicative     | Dependent or relying on                                           |
 |    `MED`     | Mediative       | Medium through which something travels or is achieved             |
 |    `CSD`     | Considerative   | "according to X"/"in X's oppinion"                                |

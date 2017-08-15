@@ -66,7 +66,7 @@ Degrees are listed along the top and consonants are listed along the left; the i
 | (h) | ABS | IND | ERG | DER | OBL | SIT | EFF | ESS | AFF | Transrelative |
 |  m  | GEN | ITP | OGN | PDC | COR | PAR | IDP | POS | PRP | Possessive    |
 |  n  |  -  |  -  |  -  | APL | UTL | PUR |  -  |  -  |  -  | Utilitative   |
-|  b  |  -  | APP | ASI | REF | FUN | CNV | TSP | CLA | CSD | Associative 1 |
+|  b  | DAT | APP | ASI | REF | FUN | CNV | TSP | CLA | CSD | Associative 1 |
 |  d  | CRS | CMP | MED | COM | TFM | CNJ | CPS | CVS | CMM | Associative 2 |
 |  g  | AVR | CON | EXC | PTL | DEP | PVS | EXM | PRD | BEN | Associative 3 |
 | sp  | PLM | ELP | PCV | CNR | SML | ASC | PCR | ALP | LIM | Temporal 1    |

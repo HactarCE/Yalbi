@@ -51,12 +51,12 @@ category: {
         # if verb gloss is omitted, it will be automatically generated as "to be a@" (MUST be manually specified for non-template roots)
         # if both noun and verb gloss are omitted, noun gloss will be the same as the dictionary definition for that stem
         # roots that start with an underscore are only used for glossing, so the dictionary definition is left out
-        m: [ "to consciously desire based on need", "desire (need)" ]
-        n: [ "to consciously desire based on goal", "desire (goal)" ]
-        p: [ "to need; need/lack/necessity", "need" ]
-        t: [ "to aspire; aspiration/goal", "aspire" ]
-        k: [ "to hope/wish", "hope" ]
-        x: [ "to request", "request" ]
+        m: [ "to consciously desire based on need" "desire (need)" "to desire (need)" ]
+        n: [ "to consciously desire based on goal" "desire (goal)" "to desire (goal)" ]
+        p: [ "to need; need/lack/necessity" "need" "to need" ]
+        t: [ "to aspire; aspiration/goal" "aspire" "to aspire" ]
+        k: [ "to hope/wish" "hope" "to hope" ]
+        x: [ "to request" "request" "to request" ]
       }
       src: "b" # based on Ithkuil root -B- (unicode should be safe, hopefully)
     }
@@ -229,6 +229,7 @@ category: {
   #endregion
 
 
+
   #region MISCELLANEOUS
 
   miscellaneous: {
@@ -239,6 +240,20 @@ category: {
       n:
         '''
         See [Pronouns](pronouns.md).
+        '''
+    }
+
+    xpa: {
+      d: vision/sight
+      s: {
+        l: [ "to see/sight; a sighting" "sighting" "to see" ]
+        r: [ "to visualize" "visualization" "to visualize" ]
+        m: [ "to observe; to visually examine" "observation" "to observe" ]
+        n: [ "to create/render an image" "process of rendering" "to render" ]
+      }
+      n:
+        '''
+        [TODO] Use some suffix meaning "organ for X" to get "eye" or "machine for X" to get "optical instrument"
         '''
     }
 

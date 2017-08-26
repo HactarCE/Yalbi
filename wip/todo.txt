@@ -22,6 +22,9 @@ MODIFIER IDEAS
   - over a large area
   - ubiquitous(ly)
 - Degree of Consensus (see MD24)
+- loose/baggy/tight/snug
+- MAGENTA (color)
+- CYAN (color)
 
 TORTOISE
 

@@ -1,6 +1,6 @@
 # Morphology
 
-Most of Ithkuil's categories have been reformed into [derivational suffixes](suffixes.md); most of the rest have been modified somewhat.
+Most of Ithkuil's categories have been transformed into [modifiers](modifiers.md), the reincarnation of derivational suffixes. Others have been replaced with [derived roots](roots.md), which operates as a more powerful SSD. The rest have been, for the most part, vastly simplified.
 
 * [Case](#case)
 * [Case-frame](#case-frame)
@@ -13,7 +13,7 @@ Most of Ithkuil's categories have been reformed into [derivational suffixes](suf
 
 ## Case
 
-Like Ithkuil, Yalbi has nearly a hundred cases. Each case is declined somewhat like a suffix, having three types. A brief description of each case follows. Most of these cases are identical to their Ithkuil counterparts, however some cases have been eliminated or moved and some have been replaced.
+Like Ithkuil, Yalbi has nearly a hundred cases. Each case is declined somewhat like a modifier, having three types, however the endings are different from modifiers. A brief description of each case follows. Most of these cases are identical to their Ithkuil counterparts, however some cases have been eliminated or moved and some have been replaced.
 
 ### Transrelative Cases
 
@@ -125,45 +125,68 @@ Like Ithkuil, Yalbi has nearly a hundred cases. Each case is declined somewhat l
 
 [TODO]
 
+## Case-frame
+
+Case-frame is Yalbi's mechanism for emulating subordinate clauses. [Here's an explanation.](syntax.md#case-frames) [TODO] Case frame is marked in gloss as `FRM`.
+
+## Function
+
+Yalbi's Function serves a similar purpose to the corresponding category in Ithkuil. Only verbs carry Function.
+
+| Abbreviation | Name        | Use                             | Example                |
+|:------------:|-------------|---------------------------------|------------------------|
+|    `STA`     | Stative     | To be [verb]ing; state of being | To be wearing a bowtie |
+|    `DYN`     | Dynamic     | To [verb]; action               | To wear a bowtie       |
+|    `MNF`     | Manifestive | To be [noun]; class membership  | To be a bowtie         |
+
+Most stems contain both a "verbal" (STA/DYN) and "nominal" (MNF) definition. For those that do not contain a verbal definition, Stative and Dynamic function may be translated as "to be functioning as X" and "to function as X" respectively. [TODO] Give more details; clarify the difference between STA and DYN, and make sure MNF isn't used as a cop-out solution to translating "be." Also explain where I hid DSC after murdering it.
+
 ## Illocution
 
 Yalbi's Illocution merges Ithkuil's Illocution and Sanction.
 
-| Abbreviation | Name          | Use                                                                     |
-|:------------:|---------------|-------------------------------------------------------------------------|
-|    `ASR`     | Assertive     | Neutral statement                                                       |
-|    `ALG`     | Allegative    | Proposition open to challenge/refutation                                |
-|    `IPU`     | Imputative    | Rebuttable assertion otherwise assumed to be true                       |
-|    `THR`     | Theoretical   | Testable hypothesis/theory                                              |
-|    `EXV`     | Expatiative   | Hypothesis/theory that may not be verifiable                            |
-|    `DIR`     | Directive     | Command ("Make it happen such that X")                                  |
-|    `IRG`     | Interrogative | Question (used with <some suffix that hasn't been invented yet> [TODO]) |
-|    `ADM`     | Admonitive    | Warning ("Be wary of X")                                                |
-|    `OPT`     | Optative      | Wishing ("If only X")                                                   |
-|    `HOR`     | Hortative     | Encouragement/suggestion ("Let X")                                      |
-|    `DEC`     | Declarative   | Formal announcement; effecting a change per se                          |
+| Abbreviation | Name                 | Use                                                                     |
+|:------------:|----------------------|-------------------------------------------------------------------------|
+|    `ASR`     | Assertive            | Neutral proposition of fact                                             |
+|    `ALG`     | Allegative           | Proposition open to challenge/refutation                                |
+|    `IPU`     | Imputative           | Rebuttable assertion otherwise assumed to be true                       |
+|    `THR`     | Theoretical          | Testable hypothesis/theory                                              |
+|    `EXV`     | Expatiative          | Hypothesis/theory that may not be verifiable                            |
+|    `AXM`     | Axiomatic            | Objectively true, universal fact                                        |
+|    `DIR`     | Directive            | Command ("Make it happen such that X")                                  |
+|    `IRG`     | Interrogative        | Question (used with <some suffix that hasn't been invented yet> [TODO]) |
+|    `ADM`     | Admonitive           | Warning ("Be wary of X")                                                |
+|    `HOR`     | Hortative            | Wishing ("If only X")                                                   |
+|    `DEC`     | Declarative          | Formal announcement; effecting a change per se                          |
 
-Note that Yalbi's Optative illocution resembles Hortative illocution from Ithkuil, and that Hortative illocution has changed.
+~~On its own, `IRG` Interrogative illocution asks a true/false question: "Is X true?" Alternatively, `IRG` can be used with certain suffixes to ask other types of questions. Likewise, `FRM-IRG` Framed interrogative illocution is translated as a true/false indirect question ("whether X is true") and can be used with certain suffixes to ask other types of questions.~~ [TODO] Interrogative illocution needs to be rethought.
 
 ## Validation
 
-Validation identifies how the speaker knows the information that is being communicated. Validation has been greatly expanded compared to Ithkuil. Note that Validation is only used with Assertive, Allegative, and Imputative illocutions.
+Yalbi's Validations resemble 2011 Ithkuil's original Validations more than its current ones. Note that many of these are not permitted with certain Illocutions.
 
-| Abbreviation | Name          | Use                                  |
-|:------------:|---------------|--------------------------------------|
-|    `EPI`     | Epistemic     | Common knowledge or human convention |
-|    `AXM`     | Axiomatic     | Universal truth                      |
-|    `PRT`     | Participatory | Involved in action                   |
-|    `CNF`     | Confirmative  | Direct observation/knowledge         |
-|    `IDV`     | Indirective   | Witnessed direct evidence            |
-|    `CNL`     | Conclusory    | Conclusion from evidence             |
-|    `INF`     | Inferential   | Inference                            |
-|    `ASM`     | Assumptive    | Assumption                           |
-|    `ITU`     | Intuitive     | Intuition/feeling                    |
-|    `SBJ`     | Subjective    | Opinion                              |
-|    `PSM`     | Presumptive   | Hearsay; trustworthy source          |
-|    `PPT`     | Purportive    | Hearsay; unknown trustworthiness     |
-|    `PUT`     | Putative      | Hearsay; untrustworthy source        |
+| Abbreviation | Name         | Use                                                   |
+|:------------:|--------------|-------------------------------------------------------|
+|    `CNF`     | Confirmative | Direct observation/knowledge; verifiable by others    |
+|    `AFM`     | Affirmative  | Direct observation/knowledge; unknown verifiability   |
+|    `RPT`     | Reportative  | Direct observation/knowledge; unverifiable            |
+|    `INF`     | Inferential  | Inference                                             |
+|    `ITU`     | Intuitive    | Intuition/feeling                                     |
+|    `TS-V`    |              | Trustworthy source; verifiable                        |
+|    `TS-U`    |              | Trustworthy source; unknown verifiability             |
+|    `TS-N`    |              | Trustworthy source; unverifiable                      |
+|    `US-V`    |              | Unknown source trustworthiness; verifiable            |
+|    `US-U`    |              | Unknown source trustworthiness; unknown verifiability |
+|    `US-N`    |              | Unknown source trustworthiness; unverifiable          |
+|    `NS-V`    |              | Untrustworthy source; verifiable                      |
+|    `NS-U`    |              | Untrustworthy source; unknown verifiability           |
+|    `NS-N`    |              | Untrustworthy source; unverifiable                    |
+
+The abbreviations for the latter nine Validations have been changed from Ithkuil to be more regular and thus easier to remember. "Name" and "use" for these nine are the same.
+
+`CNF` Confirmative is also used as a sort of default Validation for those Illocutions where Validation is not applicable.
+
+With `IRG` Interrogative illocution, Validation might be translated as "I [think/heard/assume] that X is the case; is it so?" (with no applicable suffix) or "I [think/heard/assume] the answer to the following question: X?" (with an applicable suffix). In general, Illocution and Validation operate in parallel rather than modifying one another.
 
 ## Perspective
 
@@ -174,7 +197,7 @@ Perspective has been copied almost directly from Ithkuil.
 |     `M`      | Monadic   | Singular                | An event occurring once or repeated within one context          |
 |     `U`      | Unbounded | Plural (not collective) | An event occurring multiple disconnected times                  |
 |     `N`      | Nomic     | All instances ever      | Universal rule (eg. "Gravity is one of the fundamental forces") |
-|     `A`      | Abstract  | The idea of X; X-ness   | "Timeless" verb form (infinitives, gerundives, etc.)            |
+|     `A`      | Abstract  | The idea of X, X-ness   | "Timeless" verb form (infinitives, gerundives, etc.)            |
 
 Abstract perspective is not permitted with main verbs.
 
@@ -221,4 +244,4 @@ Yalbi's `MTR` Metaphorical essence is based on to Ithkuil's `RPS` Representation
 
 ## Case-frame
 
-Yalbi uses case-frames to emulate subordinate clauses. A case-frame always begins a "framed verb," a verb with [Case](#case) instead of [Illocution](#illocution) and [Validation](#validation). The final word of a case frame carries rising tone; thus a one-word case-frame consists of a single verb with rising tone. Alternatively, the word **o** may be used to end a case-frame. [TODO] Case-frames work exactly as they do in Ithkuil, so just go and read [JQ's explanation](http://ithkuil.net/05_verbs_1.html#Sec5o4) for now.
+Yalbi uses case-frames to represent subordinate clauses. A case-frame always begins a "framed verb," a verb with [Case](#case) instead of [Illocution](#illocution) and [Validation](#validation). A case-frame ends with <some suffix that hasn't been invented yet> [TODO]. [TODO] Case-frames work exactly as they do in Ithkuil, so just go and read [JQ's explanation](http://ithkuil.net/05_verbs_1.html#Sec5o4) for now.

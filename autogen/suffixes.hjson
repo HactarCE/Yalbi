@@ -1,0 +1,250 @@
+/*
+ * This is the ultimate source of modifier information. All others are
+ * copied or generated from this file.
+ */
+
+{
+
+  colors: {
+    bri: {
+      g: degree of brightness
+      c: nts
+      d: [
+        pitch-black
+        very dark
+        dark
+        a bit dark
+        normal brightness
+        a bit bright
+        bright
+        very bright
+        blindingly bright
+      ]
+    }
+    sat: {
+      g: degree of color intensity/saturation
+      c: mdj
+      d: [
+        grey
+        unsaturated/greyish
+        somewhat greyish
+        a bit dull
+        normal color
+        a bit vibrant
+        somewhat vibrant
+        vibrant/fluorescent
+        extremely vibrant/fluorescent
+      ]
+    }
+    trn: {
+      g: degree of opaqueness/transparency
+      c: mfr
+      d: [
+        invisible
+        nearly invisible
+        transparent
+        mostly transparent
+        somewhat transparent
+        cloudy
+        translucent
+        nearly opaque
+        opaque
+      ]
+    }
+    # [TODO] Actually implement this
+    # @color: [
+    #   @-ish grey
+    #   unsaturated/greyish @
+    #   somewhat greyish @
+    #   slightly dull @
+    #   @
+    #   slightly vibrant @
+    #   somewhat vibrant @
+    #   vibrant/fluorescent @
+    #   extremely vibrant/fluorescent @
+    # ]
+
+    # When used as a root, prepend 'r' to get "to paint/tint @"
+  }
+
+  demonstrative: {
+    def: {
+      g: degree of definiteness
+      c: ktr
+      d: [
+        any random X; in any manner
+        almost any X; in any number of ways
+        some X or other; in some way or other
+        some certain X; in some certain way [identity unknown]
+        this X or that [identity almost known -- choices limited]
+        a certain/particular X; in a particular way [identity ascertainable]
+        presumably/apparently this/that X; apparently in this way [tentatively identified]
+        this/that/said X; in said manner; in that way [identity known]
+        at hand; under discussion; in this manner [identified in present context]
+      ]
+      src: def
+    }
+    dsr: {
+      g: degree of discretion
+      c: ntm
+      d: [
+        announced/advertised/heralded; with full public disclosure
+        open and well-known; with public knowledge
+        public/open; for all to see publicly/openly
+        shown/open/available by request
+        semi-public(ly)/exclusive(ly)
+        personal(ly)
+        private(ly)
+        secret(ly)
+        confidential(ly)/classified
+      ]
+      src: dsr
+    }
+    inl: {
+      g: degree of inclusion
+      c: nsp
+      d: [
+        not any/one X; none of X; in no such way
+        hardly/barely any X; in hardly any such way
+        some few X; a few certain Xs; in a few certain ways
+        some of X; certain Xs; in certain ways
+        several/various Xs; in several different ways
+        a significant portion of X; a fair number of X; in a fair number of ways
+        most X; in most ways
+        almost every X; in almost every way
+        each/every X; in each/every way
+      ]
+      src: inl
+    }
+    ext: {
+      g: exactness of identity / identity as a referent or standard
+      c: rmc
+      d: [
+        nothing like X; in no way similar to X
+        somewhat like X; somewhat so
+        nearly or almost that X; nearly or almost so
+        just about X; X for all intents and purposes
+        this kind/type/sort of X
+        such an X; in such a manner
+        clear (case of) X; clearly/certainly/indeed
+        just like that; thus(ly)
+        the exact X; the very one; exactly thus/so
+      ]
+      src: ext
+    }
+    fam: {
+      # [TODO]
+    }
+  }
+
+  qualitative: {
+    siz: {
+      g: "degree of size" # generic
+      c: "xr" # C modifier
+      d: [ # degrees
+        microscopic
+        very small; tiny
+        small
+        a little on the small size
+        medium-sized
+        a little on the large size
+        large
+        very large; enormous
+        gargantuan
+      ]
+      # s: { # additional stems (not including degrees; blank if omitted)
+      # }
+      src: siz
+    }
+    mgc: {
+      g: degree of magicalness
+      c: ntck
+      d: [
+        not at all magical
+        slightly magical
+        somewhat magical
+        not very magical
+        moderately magical
+        rather magical
+        magical
+        very magical
+        magic-infused
+      ]
+    }
+    cfd: {
+      g: degree of confidence
+      c: ltf
+      d: [
+        extremely meek/submissive/obedient/docile
+        very meek/submissive/obedient/docile
+        meek/submissive/obedient/docile
+        somewhat meek/submissive/obedient/docile
+        properly humble
+        somewhat confident/strong/definite/authoritative
+        confident/strong/definite/authoritative
+        very confident/strong/definite/authoritative
+        extremely confident/strong/definite/authoritative
+      ]
+      src: cfd
+    }
+  }
+
+  miscellaneous: {
+    car: {
+      g: carrier
+      c: b
+      d: [
+        tangible inanimate thing
+        inanimate thing
+        intangible thing
+        person
+        animate being
+        non-person animate being
+        place name
+        abstract concept
+        essence (Abstract perspective)
+      ]
+      n:
+        '''
+        This modifier cannot be used in type 3. ([TODO] There should be a mechanism for using the carrier word as a modifier, but it will not be using `CAR`.) This modifier must appear at the end of a word. The last word of the carried segment is given rising tone. ([TODO] Handle quoting tonal languages?) This modifier is used in type 2 if quoting a proper noun; otherwise type 1 is used.
+        '''
+    }
+  }
+
+  temporal: {
+    tpp: {
+      g: temporal position relative to present context
+      c: kn
+      d: [
+        in the remote past; once upon a time
+        past/former/previous; a long time ago
+        recent
+        X just happened
+        present/current
+        imminent
+        forthcoming; soon to arrive
+        future; eventual
+        in the far future
+      ]
+    }
+  }
+
+  aspectual: {
+    TEM1: {
+      g: temporal aspects 1
+      c: mv
+      d: [
+        used to X (no longer does)
+        have already Xed
+        simple past tense
+        just recently Xed
+        present tense
+        on the verge of Xing; about to X
+        simple future tense
+        future perfect ("will have Xed")
+        will continue to X
+      ]
+    }
+  }
+
+}

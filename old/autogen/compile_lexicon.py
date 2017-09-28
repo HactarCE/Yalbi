@@ -29,7 +29,7 @@ scriptname = path.basename(sys.argv[0])
 
 files = '''\
 roots_template.md
-suffixes_template.md
+modifiers_template.md
 '''
 
 def md_linkify(header_text):
@@ -127,7 +127,7 @@ for filename in files.splitlines():
         output = ''
         outfile = None
         for line in f:
-            match = re.match(r'--([^\s]*)(\s+(.*))?\n', line)
+            match = re.match(r'~~([^\s]*)(\s+(.*))?\n', line)
             if match is None:
                 output += line
             elif match.group(1) == '':

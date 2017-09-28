@@ -1,0 +1,324 @@
+/*
+ * This is the ultimate source of root information. All others are
+ * copied or generated from this file.
+ *
+ * HJSON code folding is broken in Atom so I have to use #region tags. Sorry.
+ *
+
+// FORMAT
+category: {
+  VC-ROOT: {
+    s: {
+      C-stem1: [
+        definition of stem 1
+        to gloss (verb)
+      ]
+      C-stem2: [
+        definition of stem 2
+        gloss (noun)
+      ]
+      ...
+      _rp: [ "secret meaning (noun)" "secret meaning (verb)" ] // seeeecret root (used only for gloss)
+      ...
+    // s: @pattern
+    // s: ["@pattern" "fill-in" "gloss fill-in (optional)" { optional-additional-stem1: [ ... ] ... }]
+    src: source root from Ithkuil
+    n:
+      '''
+      Optional about this root
+      '''
+  }
+}
+
+*/
+
+{
+
+
+  #region EMOTIONAL STATES
+  "emotional states": {
+
+    #region -BA- WANT/DESIRE/REQUEST
+    ba: {
+      d: "want/desire/request" # root definition
+      # g: "want/desire/request" # root gloss (assumed same as definition)
+      s: { # stems
+        l: [ # each stem has 3 parameters
+          "to unwillfully want/desire" # dictionary definition
+          "want" # noun gloss
+          "to want" # verb gloss
+        ]
+        # if verb gloss is omitted, it will be automatically generated as "to be a@" (MUST be manually specified for non-template roots)
+        # if both noun and verb gloss are omitted, noun gloss will be the same as the dictionary definition for that stem
+        # roots that start with an underscore are only used for glossing, so the dictionary definition is left out
+        m: [ "to consciously desire based on need" "desire (need)" "to desire (need)" ]
+        n: [ "to consciously desire based on goal" "desire (goal)" "to desire (goal)" ]
+        p: [ "to need; need/lack/necessity" "need" "to need" ]
+        t: [ "to aspire; aspiration/goal" "aspire" "to aspire" ]
+        k: [ "to hope/wish" "hope" "to hope" ]
+        x: [ "to request" "request" "to request" ]
+      }
+      src: "b" # based on Ithkuil root -B- (unicode should be safe, hopefully)
+    }
+    #endregion
+
+  }
+  #endregion
+
+
+
+  #region CLOTHING
+  "clothing": {
+
+    #region TEMPLATE @CLOTHING
+    @gva: {
+      # in templates '@' is replaced with definition or gloss
+      # 'a@' is replaced with 'a @' or 'an @' depending on specification (error if none given)
+      s: {
+        l: [ "@" ]
+        r: [ "to wear a@" ]
+        m: [ "@ as covering" ]
+        f: [ "@ as fashion" ]
+        n: [ "@ as distinguishing marker" ]
+        p: [ "@ as indicator of station" ]
+        t: [ "@ as ornament" ]
+        k: [ "@ as accessory" ]
+        s: [ "@ as part of uniform" ]
+        c: [ "@ as part of costume" ]
+        _rp: [ "to wear a@ as covering" ]
+        _rt: [ "to wear a@ as fashion" ]
+        _rm: [ "to wear a@ as distinguishing marker" ]
+        _rn: [ "to wear a@ as indicator of station" ]
+        _rk: [ "to wear a@ as ornament" ]
+        _rf: [ "to wear a@ as accessory" ]
+        _rs: [ "to wear a@ as part of uniform" ]
+        _rc: [ "to wear a@ as part of costume" ]
+        _ns: [ "@ as distinguishing marker as part of a uniform" ]
+        _ps: [ "@ as indicator of station as part of a uniform" ]
+        _ts: [ "@ as ornament as part of a uniform" ]
+        _ks: [ "@ as accessory as part of a uniform" ]
+        _nc: [ "@ as distinguishing marker as part of a costume" ]
+        _pc: [ "@ as indicator of station as part of a costume" ]
+        _tc: [ "@ as ornament as part of a costume" ]
+        _kc: [ "@ as accessory as part of a costume" ]
+        _rns: [ "to wear @ as distinguishing marker as part of a uniform" ]
+        _rps: [ "to wear @ as indicator of station as part of a uniform" ]
+        _rts: [ "to wear @ as ornament as part of a uniform" ]
+        _rks: [ "to wear @ as accessory as part of a uniform" ]
+        _rnc: [ "to wear @ as distinguishing marker as part of a costume" ]
+        _rpc: [ "to wear @ as indicator of station as part of a costume" ]
+        _rtc: [ "to wear @ as ornament as part of a costume" ]
+        _rkc: [ "to wear @ as accessory as part of a costume" ]
+      }
+      n:
+        '''
+        **r** can be combined with a fricative or plosive to mean _to wear X as Y_. For example, _rt_ means _to wear clothing as distinguishing marker_. **s** or **c** can be appended as well; for example, _rkc_ means _to wear as an accessory as part of a costume_.
+        '''
+      src: gv
+    }
+    #endregion
+
+    gva: {
+      d: [ "article of clothing" "an " ] # definition + definition article
+      g: [ "clothing" "" ] # gloss + gloss article
+      s: "gva" # stem pattern
+      src: gv
+    }
+    bu: { d: [ "coat/jacket" "a " ], g: [ "coat" "a " ], s: "gva", src: "bb" }
+    bda: { d: [ "necktie" "a " ], s: "gva", src: "bd" }
+    bdo: { d: [ "bowtie" "a " ], s: "gva" }
+    bdi: { d: [ "cravat" "a " ], s: "gva", src: "bd" }
+
+  }
+  #endregion
+
+
+
+  #region ANIMAL LIFE
+  "animal life": {
+
+    #region TEMPLATE @ANIMAL
+    @rna: {
+      s: {
+        l: [ "@" ]
+        s: [ "male @" ]
+        c: [ "female @" "female @" "to be a female @" ]
+        m: [ "wild @" "wild @" "to be a wild @" ]
+        n: [ "bred/domesticated @" "domesticated @" "to be a domesticated @" ]
+        p: [ "@ as food/prey" ]
+        t: [ "@ as resource" ]
+        k: [ "@ as derived resource or processed product" ]
+        _sm: [ "wild male @" "to be a wild male @" ]
+        _sn: [ "domesticated male @" "to be a domesticated male @" ]
+        _sp: [ "male @ as food/prey" "to be a male @ as food/prey" ]
+        _st: [ "male @ as resource" "to be a male @ as resource" ]
+        _sk: [ "male @ as processed product" "to be a male @ as processed product" ]
+        _cm: [ "wild @" ]
+        _cn: [ "bred/domesticated @" "domesticated @" "to be a domesticated @" ]
+        _cp: [ "@ as food/prey" ]
+        _ct: [ "@ as resource" ]
+        _ck: [ "@ as derived resource or processed product" ]
+      }
+      src: vr
+      n:
+        '''
+        A nasal or plosive can be combined with **s** or **c**. For example, _nc_ means _bred/domesticated male_.
+        '''
+    }
+    #endregion
+
+    rna: { d: [ "animal" "an " ], s: "rna" }
+    vra: { d: [ "aquatic animal" "an " ], s: "rna", src: "vr" }
+    bdu: { d: [ "octopus" "an " ], s: "rna", src: "bdh" }
+    bga: { d: [ "squid" "a " ], s: "rna", src: "bg" }
+    bko: { d: [ "shark" "a " ], s: "rna", src: "bkʰ" }
+    bja: { d: [ "eel" "an " ], s: "rna", src: "bj" }
+    bka: { d: [ "lamprey" "a " ], s: "rna", src: "bk" }
+    bku: { d: [ "pike" "a " ], s: "rna", src: "bkw" }
+    bki: { d: [ "ray" "a " ], s: "rna", src: "bk'" }
+
+  }
+  #endregion
+
+
+
+  #region COLORS
+  "colors": {
+
+    #region -NKA- COLOR
+    nka: {
+      d: color
+      s: {
+        l: [ "color" "color" ]
+        t: [ "color hue" "color hue" ]
+        ts: [ "color defined by HSV (hue, saturation, brightness/value)" "HSV color" ]
+        tc: [ "color defined by HSL (hue, saturation, lightness)" "HSL color" ]
+        k: [ "color defined by RGB (red, green, blue)" "RGB color" ]
+        ks: [ "color defined by ARGB (opacity/alpha, red, green, blue)" "ARGB color" ]
+        p: [ "color defined by CMYK (cyan, magenta, yellow, black)" "CMYK color" ]
+      }
+    }
+    #endregion
+
+    # xto: { s: [ "@color" "red" ] src: "xt'" }
+    # blo: { s: [ "@color" "aquamarine" ] src: "blw" }
+    # bra: { s: [ "@color" "yellow" ] src: "br" }
+    # dre: { s: [ "@color" "orange" ] src: "dř" }
+    # dlo: { s: [ "@color" "maroon" ] src: "dhl" }
+    # fla: { s: [ "@color" "black" ] src: "fl" }
+    # gri: { s: [ "@color" "sky blue" ] src: "gř" }
+    # gya: { s: [ "@color" "white" ] src: "gy" }
+    # kli: { s: [ "@color" "turquoise" ] src: "lkw" }
+    # kwi: { s: [ "@color" "purple" ] src: "kʰw" }
+    # lxi: { s: [ "@color" "brown" ] src: "lxh" }
+    # lkei: { s: [ "@color" "ecru" ] src: "ļkʰ" }
+    # lpei: { s: [ "@color" "ochre" ] src: "ļpʰ" }
+    # mga: { s: [ "@color" "peach" ] src: "mg" }
+    # mke: { s: [ "@color" "beige/tan", "beige" ] src: "mkʰ" }
+    # mku: { s: [ "@color" "mauve" ] src: "mkʰw" }
+    # plu: { s: [ "@color" "burgandy" ] src: "plw" }
+    # pxe: { s: [ "@color" "blue" ] src: "př" }
+    # pwi: { s: [ "@color" "pink" ] src: "pʰw" }
+    # xso: { s: [ "@color" "lavender" ] src: "řsw" }
+    # ste: { s: [ "@color" "gray" ] src: "blw" }
+    # tli: { s: [ "@color" "teal" ] src: "tlw" }
+    # tra: { s: [ "@color" "green" ] src: "tr" }
+    # xle: { s: [ "@color" "yellow-green" ] src: "xlw" }
+
+  }
+  #endregion
+
+
+
+  #region MISCELLANEOUS
+
+  miscellaneous: {
+
+    pa: {
+      d: pronoun
+      s: {}
+      n:
+        '''
+        See [Pronouns](pronouns.md).
+        '''
+    }
+
+    xpa: {
+      d: vision/sight
+      s: {
+        l: [ "to see/sight; a sighting" "sighting" "to see" ]
+        r: [ "to visualize" "visualization" "to visualize" ]
+        m: [ "to observe; to visually examine" "observation" "to observe" ]
+        n: [ "to create/render an image" "process of rendering" "to render" ]
+      }
+      n:
+        '''
+        [TODO] Use some suffix meaning "organ for X" to get "eye" or "machine for X" to get "optical instrument"
+        '''
+    }
+
+    ri: {
+      d: possession/ownership
+      s: {
+        l: [ "to physically have/possess (temporary/circumstantial and alienable)" "physical possession (alienable)" "to physically have (alienable)" ]
+        r: [ "to have/possess (circumstantial and quasi-inalienable)" "possession (quasi-inalienable)" "to have (quasi-inalienable)" ]
+        j: [ "to intrinsically possess (intrinsic and inalienable)" "possession (intrinsic)" "to have (intrinsic)" ]
+        m: [ "to own and physically have (alienable but quasi-permanent)" "ownership and physical possession (alienable)" "to own and have (alienable)" ]
+        n: [ "to own (alienable but quasi-permanent)" "ownership (alienable)" "to own (alienable)" ]
+        v: [ "to own (quasi-inalienable)" "ownership (quasi-inalienable)" "to own (quasi-inalienable)" ]
+      }
+    }
+
+    ktu: {
+      d: rock/soil/ground
+      s: {
+        l: [ "stone" ]
+        p: [ "sand" ]
+        t: [ "clay" ]
+        k: [ "gravel" ]
+        s: [ "stone (substance)" ]
+        ps: [ "sand (substance)" ]
+        ts: [ "clay (substance)" ]
+        ks: [ "gravel (substance)" ]
+        c: [ "stone (component of other material)" ]
+        pc: [ "sand (component of other material)" ]
+        tc: [ "clay (component of other material)" ]
+        kc: [ "gravel (component of other material)" ]
+      }
+      n:
+        '''
+        Add **s** for "as substance" and **c** for "as component of ground or other material." (**s** and **c** are used instead of **ls** and **lc** respectively.)
+        '''
+      src: kt
+    }
+
+    zri: {
+      d: teach/learn
+      s: {
+        l: [ "to teach" "teaching" "to teach" ]
+        m: [ "to teach by explaining" "explanation" "to explain" ]
+        n: [ "to teach by demonstration" "demonstration" "to demonstrate" ]
+        r: [ "to learn" "learning" "to learn" ]
+        rm: [ "to learn from explanation" "learning from explanation" "to learn from explanation" ]
+        rn: [ "to learn from demonstration" "learning from demonstration" "to learn from demonstration" ]
+      }
+    }
+
+    dza: {
+      d: day/night
+      s: {
+        l: [ "day (24-hour period)" ]
+      }
+      src: ż
+      n:
+        '''
+        This is nowhere near done right now
+        '''
+    }
+
+  }
+
+  #endregion
+
+
+}

@@ -141,7 +141,7 @@ The letter sequences **ts**, **dz**, **tc**, and **dj** may be pronounced as aff
 
 The vowel combinations **ai**, **ei**, **oi**, and **au** are pronounced as diphthongs in Yalbi.
 
-**ia**, **ie**, **io**, **iu**, **ua**, **ue**, **ui**, and **uo** may be pronounced either as diphthongs or as separate
+**ia**, **ie**, **io**, **iu**, **ua**, **ue**, **ui**, and **uo** may be pronounced either as diphthongs or as separate syllables.
 
 ### Vowel Pronunciation
 

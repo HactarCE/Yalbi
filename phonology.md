@@ -78,20 +78,20 @@ Yalbi's phonology is quite barebones compared to Ithkuil, having only 18 consona
 |    **b**     |        /b/         | [voiced bilabial plosive][b], as in _**b**ad_                            |
 |    **c**     |        /ʃ/         | [voiceless postalveolar fricative][ʃ], as in _**sh**ed_                  |
 |    **d**     |        /d/         | [voiced dental/alveolar/postalveolar plosive][d], as in _**d**a**d**_    |
-|    **f**     |       /f~ɸ/        | [voiceless labiodental/bilabial fricative][f], as in _**f**ill_          |
-|    **g**     |       /g~ɢ/        | [voiced velar/uvular plosive][g], as in _**g**arden_                     |
+|    **f**     |       /f\~ɸ/        | [voiceless labiodental/bilabial fricative][f], as in _**f**ill_          |
+|    **g**     |       /g\~ɢ/        | [voiced velar/uvular plosive][g], as in _**g**arden_                     |
 |    **h**     |        /h/         | [voiceless glottal fricative][h], as in _**h**at_                        |
 |    **j**     |        /ʒ/         | [voiced postalveolar fricative][ʒ], as in _mea**s**ure_                  |
 |    **k**     |        /k/         | [voiceless velar/uvular plosive][k], as in _**c**ow_                     |
 |    **l**     |        /l/         | [alveolar lateral approximant][l], as in _**l**ie_                       |
 |    **m**     |        /m/         | [bilabial nasal][m], as in _**m**o**m**_                                 |
-|    **n**     |       /n~ŋ/        | [dental/alveolar/velar nasal][n], as in _te**n**_ or _thi**ng**_         |
+|    **n**     |       /n\~ŋ/        | [dental/alveolar/velar nasal][n], as in _te**n**_ or _thi**ng**_         |
 |    **p**     |        /p/         | [voiceless bilabial plosive][p], as in _**p**al_                         |
 |    **r**     | /r\~ɾ\~ɹ\~ʀ\~ʁ\~ɽ/ | [rhotic consonant][r], as in _**r**ed_                                   |
 |    **s**     |        /s/         | [voiceless alveolar sibilant][s], as in _**s**oon_                       |
 |    **t**     |        /t/         | [voiceless dental/alveolar/postalveolar fricative][t], as in  _**t**ime_ |
-|    **v**     |       /v~β/        | [voiced labiodental/bilabial fricative][v], as in _**v**ery_             |
-|    **x**     |       /x~χ/        | [voiceless velar/uvular fricative][x] (no English equivalent)            |
+|    **v**     |       /v\~β/        | [voiced labiodental/bilabial fricative][v], as in _**v**ery_             |
+|    **x**     |       /x\~χ/        | [voiceless velar/uvular fricative][x] (no English equivalent)            |
 |    **z**     |        /z/         | [voiced alveolar sibilant][z], as in _**z**ig-**z**ag_                   |
 
 The letter sequences **ts**, **dz**, **tc**, and **dj** may be pronounced as affricates.
@@ -147,11 +147,11 @@ The vowel combinations **ai**, **ei**, **oi**, and **au** are pronounced as diph
 
 | Romanization |   IPA    | description                                                                                                                                                         |
 |:------:|:--------:|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   a    | /a~ä~ɑ/  | [open][a] unrounded vowel, as in _f**a**ther_                                                                                                                       |
+|   a    | /a\~ä\~ɑ/  | [open][a] unrounded vowel, as in _f**a**ther_                                                                                                                       |
 |   e    |   /ɛ/    | [open-mid front](ɛ) unrounded vowel, as in _f**e**d_                                                                                                                |
-|   i    | /i~ɪ~j/  | [close front][i] or [near-close near-front][ɪ] unrounded vowel, as in _f**ee**t_ or _f**i**t_; can also be pronounced as a [palatal approximant][j] as in _**y**es_ |
-|   o    | /o̞~o~oʊ/ | [mid back][o] rounded vowel, as in _n**o**_                                                                                                                         |
-|   u    | /u~ʊ~w/  | [close back][u] or [near-close near-back][ʊ] rounded vowel, as in _f**oo**d_ or _p**u**t_; can also be pronounced as a [labiovelar approximant][w] as in _**w**ell_ |
+|   i    | /i\~ɪ\~j/  | [close front][i] or [near-close near-front][ɪ] unrounded vowel, as in _f**ee**t_ or _f**i**t_; can also be pronounced as a [palatal approximant][j] as in _**y**es_ |
+|   o    | /o̞\~o\~oʊ/ | [mid back][o] rounded vowel, as in _n**o**_                                                                                                                         |
+|   u    | /u\~ʊ\~w/  | [close back][u] or [near-close near-back][ʊ] rounded vowel, as in _f**oo**d_ or _p**u**t_; can also be pronounced as a [labiovelar approximant][w] as in _**w**ell_ |
 
 [a]: https://en.wikipedia.org/wiki/Open_central_unrounded_vowel
 [ɛ]: https://en.wikipedia.org/wiki/Open-mid_front_unrounded_vowel
@@ -173,14 +173,14 @@ These vowel conjuncts may be pronounced either as diphthongs, as separate syllab
 
 | Romanization |   IPA   |
 |:------------:|:-------:|
-|      ia      | /ia~ja/ |
-|      ie      | /iɛ~jɛ/ |
-|      io      | /io~jo/ |
-|      iu      | /iu~ju/ |
-|      ua      | /ua~wa/ |
-|      ue      | /uɛ~wɛ/ |
-|      ui      | /ui~wi/ |
-|      uo      | /uo~wo/ |
+|      ia      | /ia\~ja/ |
+|      ie      | /iɛ\~jɛ/ |
+|      io      | /io\~jo/ |
+|      iu      | /iu\~ju/ |
+|      ua      | /ua\~wa/ |
+|      ue      | /uɛ\~wɛ/ |
+|      ui      | /ui\~wi/ |
+|      uo      | /uo\~wo/ |
 
 For syllable stress purposes, these count as diphthongs. Only the second letter can carry an acute accent for tone marking.
 

@@ -73,26 +73,26 @@ Yalbi's phonology is quite barebones compared to Ithkuil, having only 18 consona
 
 ### Consonant Pronunciation
 
-| Romanization |      IPA      | Description                                                              |
-|:------------:|:-------------:|--------------------------------------------------------------------------|
-|    **b**     |      /b/      | [voiced bilabial plosive][b], as in _**b**ad_                            |
-|    **c**     |      /ʃ/      | [voiceless postalveolar fricative][ʃ], as in _**sh**ed_                  |
-|    **d**     |      /d/      | [voiced dental/alveolar/postalveolar plosive][d], as in _**d**a**d**_    |
-|    **f**     |     /f~ɸ/     | [voiceless labiodental/bilabial fricative][f], as in _**f**ill_          |
-|    **g**     |     /g~ɢ/     | [voiced velar/uvular plosive][g], as in _**g**arden_                     |
-|    **h**     |      /h/      | [voiceless glottal fricative][h], as in _**h**at_                        |
-|    **j**     |      /ʒ/      | [voiced postalveolar fricative][ʒ], as in _mea**s**ure_                  |
-|    **k**     |      /k/      | [voiceless velar/uvular plosive][k], as in _**c**ow_                     |
-|    **l**     |      /l/      | [alveolar lateral approximant][l], as in _**l**ie_                       |
-|    **m**     |      /m/      | [bilabial nasal][m], as in _**m**o**m**_                                 |
-|    **n**     |     /n~ŋ/     | [dental/alveolar/velar nasal][n], as in _te**n**_ or _thi**ng**_         |
-|    **p**     |      /p/      | [voiceless bilabial plosive][p], as in _**p**al_                         |
-|    **r**     | /r~ɾ~ɹ~ʀ~ʁ~ɽ/ | [rhotic consonant][r], as in _**r**ed_                                   |
-|    **s**     |      /s/      | [voiceless alveolar sibilant][s], as in _**s**oon_                       |
-|    **t**     |      /t/      | [voiceless dental/alveolar/postalveolar fricative][t], as in  _**t**ime_ |
-|    **v**     |     /v~β/     | [voiced labiodental/bilabial fricative][v], as in _**v**ery_             |
-|    **x**     |     /x~χ/     | [voiceless velar/uvular fricative][x] (no English equivalent)            |
-|    **z**     |      /z/      | [voiced alveolar sibilant][z], as in _**z**ig-**z**ag_                   |
+| Romanization |        IPA         | Description                                                              |
+|:------------:|:------------------:|--------------------------------------------------------------------------|
+|    **b**     |        /b/         | [voiced bilabial plosive][b], as in _**b**ad_                            |
+|    **c**     |        /ʃ/         | [voiceless postalveolar fricative][ʃ], as in _**sh**ed_                  |
+|    **d**     |        /d/         | [voiced dental/alveolar/postalveolar plosive][d], as in _**d**a**d**_    |
+|    **f**     |       /f~ɸ/        | [voiceless labiodental/bilabial fricative][f], as in _**f**ill_          |
+|    **g**     |       /g~ɢ/        | [voiced velar/uvular plosive][g], as in _**g**arden_                     |
+|    **h**     |        /h/         | [voiceless glottal fricative][h], as in _**h**at_                        |
+|    **j**     |        /ʒ/         | [voiced postalveolar fricative][ʒ], as in _mea**s**ure_                  |
+|    **k**     |        /k/         | [voiceless velar/uvular plosive][k], as in _**c**ow_                     |
+|    **l**     |        /l/         | [alveolar lateral approximant][l], as in _**l**ie_                       |
+|    **m**     |        /m/         | [bilabial nasal][m], as in _**m**o**m**_                                 |
+|    **n**     |       /n~ŋ/        | [dental/alveolar/velar nasal][n], as in _te**n**_ or _thi**ng**_         |
+|    **p**     |        /p/         | [voiceless bilabial plosive][p], as in _**p**al_                         |
+|    **r**     | /r\~ɾ\~ɹ\~ʀ\~ʁ\~ɽ/ | [rhotic consonant][r], as in _**r**ed_                                   |
+|    **s**     |        /s/         | [voiceless alveolar sibilant][s], as in _**s**oon_                       |
+|    **t**     |        /t/         | [voiceless dental/alveolar/postalveolar fricative][t], as in  _**t**ime_ |
+|    **v**     |       /v~β/        | [voiced labiodental/bilabial fricative][v], as in _**v**ery_             |
+|    **x**     |       /x~χ/        | [voiceless velar/uvular fricative][x] (no English equivalent)            |
+|    **z**     |        /z/         | [voiced alveolar sibilant][z], as in _**z**ig-**z**ag_                   |
 
 The letter sequences **ts**, **dz**, **tc**, and **dj** may be pronounced as affricates.
 

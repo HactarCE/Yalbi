@@ -15,7 +15,7 @@ Most of Ithkuil's categories have been reformed into [derivational suffixes](suf
 
 Like Ithkuil, Yalbi has nearly a hundred cases. Each case is declined somewhat like a suffix, having three types. A brief description of each case follows. Most of these cases are identical to their Ithkuil counterparts, however some cases have been eliminated or moved and some have been replaced.
 
-### Transrelative Cases
+### Transrelative cases
 
 | Abbreviation | Name         | Use                                        |
 |:------------:|--------------|--------------------------------------------|
@@ -25,11 +25,12 @@ Like Ithkuil, Yalbi has nearly a hundred cases. Each case is declined somewhat l
 |    `ERG`     | Ergative     | Agent                                      |
 |    `EFF`     | Effectuative | Enabler                                    |
 |    `AFF`     | Affective    | Experiencer                                |
+|    `DAT`     | Dative       | Indirect object                            |
 |    `DER`     | Derivative   | Inanimate force or non-deliberate stimulus |
 |    `SIT`     | Situative    | Cause                                      |
-|    `ESS`     | Essive       | Contextual role/name                       |
+|    `???`     | Identical?   | "X is ..."                                 |
 
-### Possessive Cases
+### Appositive cases
 
 | Abbreviation | Name           | Use                                                              |
 |:------------:|----------------|------------------------------------------------------------------|
@@ -39,87 +40,79 @@ Like Ithkuil, Yalbi has nearly a hundred cases. Each case is declined somewhat l
 |    `PDC`     | Productive     | Creator/author/originator                                        |
 |    `ITP`     | Interpretative | "as seen by X"/"through the eyes of X"                           |
 |    `OGN`     | Originative    | Literal/figurative origin                                        |
-|    `IDP`     | Interdependent | Mutually dependent ("**nation's** leader" or "**army** general") |
 |    `PAR`     | Partitive      | Quantitative/content-to-container                                |
 |    `COR`     | Correlative    | Abstract association ("**spatial** coordinates"/"relative to X") |
+|    `CPS`     | Compositive    | Literal/figurative source substance or thing consumed in action  |
 
-### Associative Cases
+### Associative cases
 
-| Abbreviation | Name            | Use                                                               |
-|:------------:|-----------------|-------------------------------------------------------------------|
-|    `APP`     | Appositive      | [Appositional](http://www.chompchomp.com/terms/appositive.htm)    |
-|    `CRS`     | Contrastive     | "instead of X"/"as opposed to X"                                  |
-|    `CPS`     | Compositive     | Literal/figurative source substance or thing consumed in action   |
-|    `DAT`     | Dative          | Indirect object                                                   |
-|    `PRD`     | Predicative     | Dependent or relying on                                           |
-|    `MED`     | Mediative       | Medium through which something travels or is achieved             |
-|    `CSD`     | Considerative   | "according to X"/"in X's oppinion"                                |
-|    `ASI`     | Assimilative    | Simile ("like X")                                                 |
-|    `FUN`     | Functive        | "(in a manner) characterized by X"                                |
-|    `TFM`     | Transformative  | "to X"/"until X"/"into X"                                         |
-|    `REF`     | Referential     | "regarding X"/"pertaining to X"                                   |
-|    `CLA`     | Classificative  | "**in rows**" or "count **by fives**"                             |
-|    `CNV`     | Conductive      | "with respect to X"/"considered within the context of X"          |
-|    `BEN`     | Benefactive     | "for the sake of X"/"out of respect for X"                        |
-|    `TSP`     | Transpositive   | "on behalf of X"/"in place of X"/"instead of X"/"for X"           |
-|    `CMM`     | Commutative     | "in exchange for"                                                 |
-|    `COM`     | Comitative      | Accompaniment; not necessarily same action ("with X")             |
-|    `CNJ`     | Conjunctive     | Accompaniment; same activity ("along with X"/"alongside X")       |
-|    `CVS`     | Conversive      | Exception to a hypothetical situation ("unless X"/"if not for X") |
-|    `DEP`     | Dependent       | "depending on X"                                                  |
-|    `PVS`     | Provisional     | "in the case of X"/"provided that there is X" (circumstantial)    |
-|    `PTL`     | Postulative     | "in the case of X"/"if X" (implying causal relationship)          |
-|    `CON`     | Concessive      | "despite X"/"in spite of X"/"regardless of X"/"no matter what"    |
-|    `EXC`     | Exceptive       | "except for X"/"excluding X"                                      |
-|    `AVR`     | Aversive        | "for fear of X"/"to avoid X"                                      |
-|    `CMP`     | Comparative     | "as opposed to X"/"versus X"                                      |
-|    `EXM`     | Exemplificative | "e.g. X"                                                          |
+| Abbreviation | Name          | Use                                                         |
+|:------------:|---------------|-------------------------------------------------------------|
+|    `ESS`     | Essive        | Contextual role/name                                        |
+|    `COM`     | Comitative    | Accompaniment; not necessarily same action ("with X")       |
+|    `CNJ`     | Conjunctive   | Accompaniment; same activity ("along with X"/"alongside X") |
+|    `INS`     | Instrumental  | Used by agent to accomplish action                          |
+|    `APL`     | Applicative   | Current utilization ("used for X"/"used as X")              |
+|    `PUR`     | Purposive     | Intended/general utilization ("meant for X")                |
+|    `UTL`     | Utilitative   | Being utilized, but not present action ("while using X")    |
+|    `CSD`     | Considerative | "according to X"/"in X's oppinion"                          |
+|    `ASI`     | Assimilative  | Simile ("like X")                                           |
 
-### Utilitative cases
+### Relational cases
 
-| Abbreviation | Name        | Use                                                |
-|:------------:|-------------|----------------------------------------------------|
-|    `APL`     | Applicative | Current utilization ("used for X"/"used as X")     |
-|    `PUR`     | Purposive   | Intended/general utilization ("meant for X")       |
-|    `UTL`     | Utilitative | Being utilized; not necessarily for present action |
+| Abbreviation | Name           | Use                                                      |
+|:------------:|----------------|----------------------------------------------------------|
+|    `PRD`     | Predicative    | Dependent or relying on                                  |
+|    `REF`     | Referential    | "regarding X"/"pertaining to X"                          |
+|    `CLA`     | Classificative | "**in rows**" or "count **by fives**"                    |
+|    `BEN`     | Benefactive    | "for the sake of X"/"out of respect for X"               |
+|    `TSP`     | Transpositive  | "on behalf of X"/"in place of X"/"instead of X"/"for X"  |
+|    `CMM`     | Commutative    | "in exchange for"                                        |
+|    `DEP`     | Dependent      | Contingent circumstance ("depending on X")               |
+|    `PVS`     | Provisional    | "in the case of X"/"if X"/"provided that there is X"     |
+|    `CMP`     | Comparative    | "as opposed to X"/"versus X"                             |
 
 ### Temporal cases
 
-| Abbreviation | Name           | Use                                                                         |
-|:------------:|----------------|-----------------------------------------------------------------------------|
-|    `SML`     | Simultaneitive | Same time                                                                   |
-|    `ASS`     | Assessive      | "per X"/"for each X"                                                        |
-|    `CNR`     | Concursive     | Temporal locative ("happened **yesterday**")                                |
-|    `ACS`     | Accessive      | Instant in time ("upon **impact**")                                         |
-|    `DFF`     | Diffusive      | Fuzzy time period, but one event ("over the course of X")                   |
-|    `PER`     | Periodic       | Multiple events scattered throughout                                        |
-|    `PRO`     | Prolapsive     | Event takes entire duration ("through X")                                   |
-|    `PCV`     | Precursive     | "before X"/"prior to X"/"preceding X"                                       |
-|    `PCR`     | Postcursive    | "after X"/"subsequent to X"/"following X"                                   |
-|    `ELP`     | Elapsive       | Time passed since event ("X ago")                                           |
-|    `ALP`     | Allapsive      | Time until event ("X from now"/"in X")                                      |
-|    `INP`     | Interpolative  | Duration ("**3-minute** song"/"each lasting X")                             |
-|    `EPS`     | Episodic       | Recurring time period ("**every three days**"/"**each year**"/"**by day**") |
-|    `PLM`     | Prolimitive    | Temporal limit ("by X"/"**by evening**)                                     |
-|    `LIM`     | Limitive       | Event culminating in anticipatory context ("in time for X")                 |
+| Abbreviation | Name        | Use                                                                         |
+|:------------:|-------------|-----------------------------------------------------------------------------|
+|    `ASS`     | Assessive   | "per X"/"for each X"                                                        |
+|    `CNR`     | Concursive  | Temporal locative ("happened **yesterday**")                                |
+|    `ACS`     | Accessive   | Instant in time ("upon **impact**")                                         |
+|    `PER`     | Periodic    | Multiple events scattered throughout                                        |
+|    `PRO`     | Prolapsive  | Event takes entire duration ("through X")                                   |
+|    `PCV`     | Precursive  | "before X"/"prior to X"/"preceding X"                                       |
+|    `PCR`     | Postcursive | "after X"/"subsequent to X"/"following X"                                   |
+|    `ELP`     | Elapsive    | Time since/until event ("X ago"/"X from now")                               |
+|    `???`     | ????????    | "since X"/"until X"                                                         |
 
 ### Spatial cases
 
-| Abbreviation | Name        | Use                                                                   |
-|:------------:|-------------|-----------------------------------------------------------------------|
-|    `LOC`     | Locative    | Location ("in X"/"by X"/"at X")                                       |
-|    `ORI`     | Orientative | Direction serving as forward ("**feet-first**"/"**sideways** motion") |
-|    `PSV`     | Procursive  | Orientational reference point ("turned **her back** on him")          |
-|    `ALL`     | Allative    | Motion towards ("towards X"/"headed **home**")                        |
-|    `ABL`     | Ablative    | Motion away from ("from the direction of X")                          |
-|    `NAV`     | Navigative  | "**down the street**"/"**diagonally**"                                |
+| Abbreviation | Name        | Use                                                                                     |
+|:------------:|-------------|-----------------------------------------------------------------------------------------|
+|    `LOC`     | Locative    | Location ("in X"/"by X"/"at X")                                                         |
+|    `ORI`     | Orientative | Direction serving as forward ("**feet-first**"/"**sideways** motion")                   |
+|    `PSV`     | Procursive  | Orientational reference point ("turned **her back** on him")                            |
+|    `ALL`     | Allative    | Motion towards ("towards X"/"headed **home**")                                          |
+|    `ABL`     | Ablative    | Motion away from ("from the direction of X")                                            |
+|    `NAV`     | Navigative  | "**down the street**"/"**diagonally**"                                                  |
+|    `???`     | ????????    | "spatially releative to X"                                                              |
+|    `???`     | ????????    | Goal                                                                                    |
+|    `EPS`     | Episodic    | Period of repetition ("**every three days**"/"**each year**"/"**by day**"/"at every X") |
 
-### Interjective cases
+### Adverbial cases
 
-| Abbreviation | Name         | Use                                                                                                |
-|:------------:|--------------|----------------------------------------------------------------------------------------------------|
-|    `VOC`     | Vocative     | [Direct address](http://www.softschools.com/examples/grammar/nouns_of_direct_address_examples/59/) |
-|    `ITJ`     | Interjective | Interjection or answer to a question                                                               |
+| Abbreviation | Name           | Use                                                                                                |
+|:------------:|----------------|----------------------------------------------------------------------------------------------------|
+|    `CON`     | Concessive     | "despite X"/"in spite of X"/"regardless of X"/"no matter what"                                     |
+|    `EXC`     | Exceptive      | "except for X"/"excluding X"                                                                       |
+|    `AVR`     | Aversive       | "for fear of X"/"to avoid X"                                                                       |
+|    `CVS`     | Conversive     | Exception to a hypothetical situation ("unless X"/"if not for X")                                  |
+|    `TFM`     | Transformative | "to X"/"until X"/"into X"                                                                          |
+|    `FUN`     | Functive       | "(in a manner) characterized by X"                                                                 |
+|    `VOC`     | Vocative       | [Direct address](http://www.softschools.com/examples/grammar/nouns_of_direct_address_examples/59/) |
+|    `SIT`     | Situative      | Cause; "considering X"/"taking X into account"                                                     |
+|    `???`     | ????????       | "regardless of X"/"whether or not X"                                                               |                                                              |
 
 ### Comparison cases
 

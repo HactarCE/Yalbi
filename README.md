@@ -1,6 +1,10 @@
-# Yalbi
+# Yalbi has been discontinued
 
-After trying to reform [Ithkuil](http://www.ithkuil.net/) and discovering several deeply rooted morphological ambiguities and redundancies, I decided to try to create my own language using my favorite parts of Ithkuil as a starting point. The result is Yalbi, an open-source morphophonological simplification and relexification of Ithkuil.
+John Quijada has begun work on a [redesign of Ithkuil](https://www.reddit.com/r/Ithkuil/comments/79p162/) which, even in its early stages, is looking much more promising than Yalbi. This repository will remain online until the official release of JQ's new language (which will no longer be called Ithkuil).
+
+## Yalbi
+
+After trying to reform [Ithkuil](http://www.ithkuil.net/) and discovering several morphological ambiguities and redundancies, I decided to try to create my own language using my favorite parts of Ithkuil as a starting point. The result is Yalbi, an open-source morphophonological simplification and relexification of Ithkuil.
 
 * [Phonology](phonology.md)
 * [Morphology](morphology.md)
@@ -11,7 +15,7 @@ After trying to reform [Ithkuil](http://www.ithkuil.net/) and discovering severa
 * [Pronouns](pronouns.md)
 * [Abbreviations](abbreviations.md) (not at all updated)
 
-## To-Do List
+### To-Do List
 
 Short-term stuff:
 
